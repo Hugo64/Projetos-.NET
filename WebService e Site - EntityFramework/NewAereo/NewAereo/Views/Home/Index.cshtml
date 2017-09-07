@@ -1,0 +1,73 @@
+﻿@model NewAereo.ServiceReference.Passagem
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h4>Passagem</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.C_Poltrona)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.C_Poltrona)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.C_Numeracao)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.C_Numeracao)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.B_Cancelar)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.B_Cancelar)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.endereco)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.endereco)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.empresa)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.empresa)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.cliente)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.cliente)
+            </dd>
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

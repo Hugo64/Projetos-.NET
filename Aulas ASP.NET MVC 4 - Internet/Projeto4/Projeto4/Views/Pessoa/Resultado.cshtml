@@ -1,0 +1,49 @@
+﻿@model Projeto4.Models.Pessoa
+@{
+    ViewBag.Title = "Lista dados da pessoa valida";
+}
+
+<h2>Lista pessoa</h2>
+<!-- CASO A VALIDAÇÃO ESTIVER OK-->
+<fieldset>
+    <legend>Pessoa</legend>
+
+    <div class="display-label">
+        @Html.LabelFor(x=> x.Nome) <!-- Mostra o nome do nosso label -->
+    </div>
+    <div class="editor-field">
+        @Html.DisplayFor(x=> x.Nome) <!-- Exibe o nome armazenado no atributo -->
+    </div>
+
+                <div class="display-label">
+                    @Html.LabelFor(x => x.Observacao)
+                </div>
+                <div class="editor-field">
+                    @Html.DisplayFor(x => x.Observacao)
+                </div>
+
+                        <div class="display-label">
+                            @Html.LabelFor(x => x.Idade) 
+                        </div>
+                        <div class="editor-field">
+                            @Html.DisplayFor(x => x.Idade)
+                        </div>
+                                <div class="display-label">
+                                    @Html.LabelFor(x => x.Email)
+                                </div>
+                                <div class="editor-field">
+                                    @Html.DisplayFor(x => x.Email)
+                                </div>
+
+                                    <div class="display-label">
+                                        @Html.LabelFor(x => x.Login)
+                                    </div>
+                                    <div class="editor-field">
+                                        @Html.DisplayFor(x => x.Login)
+                                    </div>
+
+</fieldset>
+
+<p>
+    @Html.ActionLink("Voltar", "Index")
+</p>

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BdSeteModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ST_Cliente">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="C_Nome" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="C_Identidade" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="C_Cpf" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="C_Identificacao" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="C_Contato" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="C_Email" Type="varchar" MaxLength="50" />
+    <Property Name="fk_id_Endereco" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ST_Empresa">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="C_Nome" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="C_Cnpj" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="fk_id_Endereco" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ST_Endereco">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="C_Estado" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="C_Cidade" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="C_Bairro" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="C_Rua" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="C_Numero" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="C_Referencia" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ST_Passagem">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="C_Poltrona" Type="nchar" MaxLength="10" />
+    <Property Name="C_Numeracao" Type="nchar" MaxLength="10" />
+    <Property Name="B_Cancelar" Type="tinyint" />
+    <Property Name="fk_id_Empresa" Type="int" Nullable="false" />
+    <Property Name="fk_id_Endereco_Destino" Type="int" Nullable="false" />
+    <Property Name="fk_id_Cliente" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_ST_Cliente_ST_Endereco">
+    <End Role="ST_Endereco" Type="Self.ST_Endereco" Multiplicity="1" />
+    <End Role="ST_Cliente" Type="Self.ST_Cliente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ST_Endereco">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ST_Cliente">
+        <PropertyRef Name="fk_id_Endereco" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ST_Empresa_ST_Endereco">
+    <End Role="ST_Endereco" Type="Self.ST_Endereco" Multiplicity="1" />
+    <End Role="ST_Empresa" Type="Self.ST_Empresa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ST_Endereco">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ST_Empresa">
+        <PropertyRef Name="fk_id_Endereco" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ST_Passagem_ST_Cliente">
+    <End Role="ST_Cliente" Type="Self.ST_Cliente" Multiplicity="1" />
+    <End Role="ST_Passagem" Type="Self.ST_Passagem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ST_Cliente">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ST_Passagem">
+        <PropertyRef Name="fk_id_Cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ST_Passagem_ST_Empresa">
+    <End Role="ST_Empresa" Type="Self.ST_Empresa" Multiplicity="1" />
+    <End Role="ST_Passagem" Type="Self.ST_Passagem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ST_Empresa">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ST_Passagem">
+        <PropertyRef Name="fk_id_Empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ST_Passagem_ST_Endereco">
+    <End Role="ST_Endereco" Type="Self.ST_Endereco" Multiplicity="1" />
+    <End Role="ST_Passagem" Type="Self.ST_Passagem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ST_Endereco">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ST_Passagem">
+        <PropertyRef Name="fk_id_Endereco_Destino" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BdSeteModelStoreContainer">
+    <EntitySet Name="ST_Cliente" EntityType="Self.ST_Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ST_Empresa" EntityType="Self.ST_Empresa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ST_Endereco" EntityType="Self.ST_Endereco" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ST_Passagem" EntityType="Self.ST_Passagem" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_ST_Cliente_ST_Endereco" Association="Self.FK_ST_Cliente_ST_Endereco">
+      <End Role="ST_Endereco" EntitySet="ST_Endereco" />
+      <End Role="ST_Cliente" EntitySet="ST_Cliente" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ST_Empresa_ST_Endereco" Association="Self.FK_ST_Empresa_ST_Endereco">
+      <End Role="ST_Endereco" EntitySet="ST_Endereco" />
+      <End Role="ST_Empresa" EntitySet="ST_Empresa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ST_Passagem_ST_Cliente" Association="Self.FK_ST_Passagem_ST_Cliente">
+      <End Role="ST_Cliente" EntitySet="ST_Cliente" />
+      <End Role="ST_Passagem" EntitySet="ST_Passagem" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ST_Passagem_ST_Empresa" Association="Self.FK_ST_Passagem_ST_Empresa">
+      <End Role="ST_Empresa" EntitySet="ST_Empresa" />
+      <End Role="ST_Passagem" EntitySet="ST_Passagem" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ST_Passagem_ST_Endereco" Association="Self.FK_ST_Passagem_ST_Endereco">
+      <End Role="ST_Endereco" EntitySet="ST_Endereco" />
+      <End Role="ST_Passagem" EntitySet="ST_Passagem" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

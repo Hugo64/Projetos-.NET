@@ -1,0 +1,29 @@
+﻿<Window x:Class="cadastroDeFuncionario.cadastrarAdministrador"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Cadastro" Height="467.299" Width="561.082" FontFamily="Segoe Print" ResizeMode="CanMinimize">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF931F1F" Offset="0.096"/>
+            <GradientStop Color="White" Offset="0.096"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid Margin="0,0,0,1">
+        <Label Content="O asterisco (*) significa que é obrigatório o preenchimento." HorizontalAlignment="Left" Margin="14,8,0,0" VerticalAlignment="Top" FontFamily="Arial"/>
+        <Label Content="Dados pessoais" HorizontalAlignment="Left" Margin="235,60,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial"/>
+        <TextBox Name="TextBoxNome" HorizontalAlignment="Left" Height="23" Margin="123,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="336" FontFamily="Arial"/>
+        <Label Content="Nome * :" HorizontalAlignment="Left" Margin="34,101,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial"/>
+        <TextBox Name="TextBoxEmail" HorizontalAlignment="Left" Height="23" Margin="123,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="336" FontFamily="Arial"/>
+        <Label Content="Email * :" HorizontalAlignment="Left" Margin="34,145,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial"/>
+        <Label Content="Autenticação" HorizontalAlignment="Left" Margin="244,181,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial"/>
+        <Label Content="Login * :" HorizontalAlignment="Left" Margin="34,221,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial"/>
+        <TextBox Name="TextBoxLogin" HorizontalAlignment="Left" Height="23" Margin="123,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="336" FontFamily="Arial"/>
+        <Label Content="Senha * :" HorizontalAlignment="Left" Margin="34,267,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial"/>
+        <PasswordBox Name="TextBoxSenha" HorizontalAlignment="Left" Margin="123,268,0,0" VerticalAlignment="Top" Width="336" FontFamily="Arial" Height="22"/>
+        <Label Content="Digite novamente a senha * :" HorizontalAlignment="Left" Margin="34,303,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial"/>
+        <PasswordBox Name="TextBoxDigiteNovamenteASenha" HorizontalAlignment="Left" Margin="212,306,0,0" VerticalAlignment="Top" Width="247"/>
+        <Button Name="ButtonCriarAdmin" Content="Criar admin" HorizontalAlignment="Left" Margin="118,379,0,0" VerticalAlignment="Top" Width="93" Height="27" FontWeight="Bold" Click="ButtonCriarAdmin_Click" FontFamily="Arial"/>
+        <Button Name="ButtonLimpar" Content="Limpar" HorizontalAlignment="Left" Margin="235,379,0,0" VerticalAlignment="Top" Width="92" Height="27" FontWeight="Bold" Click="ButtonLimpar_Click" FontFamily="Arial"/>
+        <Button Name="ButtonCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="349,379,0,0" VerticalAlignment="Top" Width="93" Height="27" FontWeight="Bold" Click="ButtonCancelar_Click" FontFamily="Arial"/>
+    </Grid>
+</Window>

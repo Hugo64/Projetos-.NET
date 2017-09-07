@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://ftp.buritiagromudas.com.br/web</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/BuritiAgroMudas.dll">
+      <publishTime>03/21/2017 18:23:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>03/12/2017 18:26:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Mvc.FixedDisplayModes.dll">
+      <publishTime>03/12/2017 18:26:50</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>07/01/2011 09:27:54</publishTime>
+    </File>
+    <File Include="bin/mysql.visualstudio.dll">
+      <publishTime>07/01/2011 09:05:38</publishTime>
+    </File>
+    <File Include="bin/MySql.Web.dll">
+      <publishTime>07/01/2011 09:27:58</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/12/2017 18:26:42</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>03/12/2017 18:26:50</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>03/12/2017 18:26:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>03/12/2017 18:26:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>03/12/2017 18:26:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>03/12/2017 18:26:49</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>03/12/2017 18:26:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>03/12/2017 18:26:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>03/12/2017 18:26:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>03/12/2017 18:26:49</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/12/2017 18:26:20</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/13/2017 11:59:37</publishTime>
+    </File>
+    <File Include="Scripts/bootbox.min.js">
+      <publishTime>03/20/2017 19:38:54</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>03/20/2017 20:18:02</publishTime>
+    </File>
+    <File Include="Scripts/javaScript.js">
+      <publishTime>03/20/2017 20:30:09</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>03/12/2017 18:58:56</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.js">
+      <publishTime>03/13/2017 11:59:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.min.js">
+      <publishTime>03/13/2017 11:59:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.min.map">
+      <publishTime>03/13/2017 11:59:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.slim.js">
+      <publishTime>03/13/2017 11:59:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.slim.min.js">
+      <publishTime>03/13/2017 11:59:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.slim.min.map">
+      <publishTime>03/13/2017 11:59:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.js">
+      <publishTime>03/12/2017 18:58:56</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.min.js">
+      <publishTime>03/12/2017 18:58:56</publishTime>
+    </File>
+    <File Include="Source/Css/bootstrap.css">
+      <publishTime>03/12/2017 18:55:47</publishTime>
+    </File>
+    <File Include="Source/Css/bootstrap.min.css">
+      <publishTime>03/20/2017 20:16:07</publishTime>
+    </File>
+    <File Include="Source/Css/buritiAgroMudas.css">
+      <publishTime>03/18/2017 16:49:38</publishTime>
+    </File>
+    <File Include="Source/Fertilizantes/Fertilizante.jpeg">
+      <publishTime>03/12/2017 18:56:00</publishTime>
+    </File>
+    <File Include="Source/Imagens Frutíferas/Amora.jpg">
+      <publishTime>03/21/2017 18:02:26</publishTime>
+    </File>
+    <File Include="Source/Imagens Frutíferas/Coco Anão R%24 18,00.jpeg">
+      <publishTime>03/12/2017 18:56:47</publishTime>
+    </File>
+    <File Include="Source/Imagens Frutíferas/Goiaba Paluma R%24 18,00.jpg">
+      <publishTime>03/12/2017 18:56:47</publishTime>
+    </File>
+    <File Include="Source/Imagens Frutíferas/Goiaba.jpg">
+      <publishTime>03/21/2017 18:02:17</publishTime>
+    </File>
+    <File Include="Source/Imagens Frutíferas/Jaca.jpg">
+      <publishTime>03/21/2017 18:02:11</publishTime>
+    </File>
+    <File Include="Source/Imagens Frutíferas/Laranja Baía R%24 20,00.jpg">
+      <publishTime>03/12/2017 18:56:47</publishTime>
+    </File>
+    <File Include="Source/Imagens Frutíferas/Laranja Pêra R%24 20,00.jpg">
+      <publishTime>03/12/2017 18:56:47</publishTime>
+    </File>
+    <File Include="Source/Imagens Frutíferas/Limão Tahiti R%24 20,00.jpg">
+      <publishTime>03/12/2017 18:56:47</publishTime>
+    </File>
+    <File Include="Source/Imagens Frutíferas/Manga Pera.jpg">
+      <publishTime>03/21/2017 18:02:00</publishTime>
+    </File>
+    <File Include="Source/Imagens Frutíferas/Manga Rosa 20,00.jpg">
+      <publishTime>03/12/2017 18:56:47</publishTime>
+    </File>
+    <File Include="Source/Imagens Frutíferas/Manga Tommy R%24 20,00.jpg">
+      <publishTime>03/21/2017 18:01:05</publishTime>
+    </File>
+    <File Include="Source/Imagens Frutíferas/Manga.jpg">
+      <publishTime>03/21/2017 18:02:40</publishTime>
+    </File>
+    <File Include="Source/Imagens Frutíferas/Mudas de Caju R%24 15,00.jpeg">
+      <publishTime>03/21/2017 17:52:26</publishTime>
+    </File>
+    <File Include="Source/Imagens Frutíferas/Pequi.jpg">
+      <publishTime>03/21/2017 18:02:32</publishTime>
+    </File>
+    <File Include="Source/Imagens Frutíferas/Pimentas R%24 20,00.jpg">
+      <publishTime>03/12/2017 18:56:47</publishTime>
+    </File>
+    <File Include="Source/Imagens Frutíferas/Roseira R%24 24,00.jpg">
+      <publishTime>03/12/2017 18:56:47</publishTime>
+    </File>
+    <File Include="Source/Imagens Frutíferas/Tangerina Ponkan R%24 20,00.jpg">
+      <publishTime>03/12/2017 18:56:47</publishTime>
+    </File>
+    <File Include="Source/Imagens Frutíferas/Tuias R%24 50,00.jpg">
+      <publishTime>03/12/2017 18:56:47</publishTime>
+    </File>
+    <File Include="Source/Imagens Jardim/Camomila.jpg">
+      <publishTime>03/21/2017 18:21:12</publishTime>
+    </File>
+    <File Include="Source/Imagens Jardim/Pimentas R%24 20,00.jpg">
+      <publishTime>03/21/2017 17:44:35</publishTime>
+    </File>
+    <File Include="Source/Imagens Jardim/Roseiras R%24 24,00.jpeg">
+      <publishTime>03/21/2017 17:41:43</publishTime>
+    </File>
+    <File Include="Source/Imagens Jardim/Samabaia.jpg">
+      <publishTime>03/21/2017 17:41:38</publishTime>
+    </File>
+    <File Include="Source/Imagens Jardim/Tuias R%24 50,00.jpeg">
+      <publishTime>03/12/2017 18:57:04</publishTime>
+    </File>
+    <File Include="Source/Imagens/1481144039_fb.svg">
+      <publishTime>03/12/2017 18:56:20</publishTime>
+    </File>
+    <File Include="Source/Imagens/1481144085_whatsapp.svg">
+      <publishTime>03/12/2017 18:56:20</publishTime>
+    </File>
+    <File Include="Source/Imagens/1481144208_gmail.svg">
+      <publishTime>03/12/2017 18:56:20</publishTime>
+    </File>
+    <File Include="Source/Imagens/ic_playlist_add_white_36px.svg">
+      <publishTime>03/12/2017 18:56:20</publishTime>
+    </File>
+    <File Include="Source/Imagens/ic_shopping_cart_white_36px.svg">
+      <publishTime>03/12/2017 18:56:20</publishTime>
+    </File>
+    <File Include="Source/Imagens/Piso-1.jpg">
+      <publishTime>03/12/2017 18:56:20</publishTime>
+    </File>
+    <File Include="Source/Imagens/Planta_fundo_transparente_V2.png">
+      <publishTime>03/12/2017 18:56:20</publishTime>
+    </File>
+    <File Include="Source/Imagens/propaganda.jpeg">
+      <publishTime>03/12/2017 18:56:20</publishTime>
+    </File>
+    <File Include="Source/Sementes/sementes.jpg">
+      <publishTime>03/12/2017 18:57:17</publishTime>
+    </File>
+    <File Include="Views/Home/Carrinho.cshtml">
+      <publishTime>03/13/2017 18:58:55</publishTime>
+    </File>
+    <File Include="Views/Home/CarrinhoRefresh.cshtml">
+      <publishTime>03/13/2017 18:26:36</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>03/20/2017 20:30:18</publishTime>
+    </File>
+    <File Include="Views/Home/quantidadeMudas.cshtml">
+      <publishTime>03/12/2017 18:58:14</publishTime>
+    </File>
+    <File Include="Views/Home/Venda_Fertilizantes.cshtml">
+      <publishTime>03/21/2017 18:16:40</publishTime>
+    </File>
+    <File Include="Views/Home/Venda_Frutiferas.cshtml">
+      <publishTime>03/21/2017 18:11:55</publishTime>
+    </File>
+    <File Include="Views/Home/Venda_Jardim.cshtml">
+      <publishTime>03/21/2017 18:21:45</publishTime>
+    </File>
+    <File Include="Views/Home/Venda_Sementes.cshtml">
+      <publishTime>03/20/2017 20:42:17</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>03/12/2017 18:26:20</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/18/2017 14:20:14</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

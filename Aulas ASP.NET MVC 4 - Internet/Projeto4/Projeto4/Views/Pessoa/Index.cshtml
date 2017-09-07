@@ -1,0 +1,84 @@
+﻿@model Projeto4.Models.Pessoa
+@{
+    ViewBag.Title = "Pagina de validação";
+}
+
+<h2>Validação</h2>
+
+@using (Html.BeginForm()) // Interface
+{
+    @Html.ValidationSummary(true); // Html help para validar os dados;
+    <fieldset>
+
+        <legend>Dados da Pessoa</legend>
+        <!-- CAMPO NOME -->
+        <div class="editor-label">
+            @Html.LabelFor(x=> x.Nome) <!-- Label com nome do campo -->
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(x=> x.Nome) <!-- inserir dados -->
+            @Html.ValidationMessageFor(x=> x.Nome) <!-- Se tiver erro na validação ele mostra -->
+        </div>
+
+        <!-- CAMPO OBSERVAÇÃO -->
+        <div class="editor-label">
+            @Html.LabelFor(x => x.Observacao)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(x => x.Observacao)
+            @Html.ValidationMessageFor(x => x.Observacao)
+        </div>
+
+        <!-- CAMPO IDADE -->
+        <div class="editor-label">
+            @Html.LabelFor(x=> x.Idade)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(x=> x.Idade)
+            @Html.ValidationMessageFor(x=> x.Idade)
+        </div>
+
+        <!-- CAMPO EMAIL -->
+        <div class="editor-label">
+            @Html.LabelFor(x=> x.Email)
+        </div>
+        <div class="editor-label">
+            @Html.EditorFor(x=> x.Email)
+            @Html.ValidationMessageFor(x=> x.Email)
+        </div>
+
+        <!-- CAMPO LOGIN -->
+        <div class="editor-label">
+            @Html.LabelFor(x=> x.Login)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(x=> x.Login)
+            @Html.ValidationMessageFor(x=> x.Login)
+        </div>
+
+        <!-- CAMPO SENHA -->
+        <div class="editor-label">
+            @Html.LabelFor(x=> x.Senha)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(x=> x.Senha)
+            @Html.ValidationMessageFor(x=> x.Senha)
+        </div>
+
+        <!-- CAMPO confimarSenha -->
+        <div class="editor-label">
+            @Html.LabelFor(x=> x.confirmarSenha)
+        </div>
+        <div class="editor-field">
+            @Html.PasswordFor(x=> x.confirmarSenha)
+            @Html.ValidationMessageFor(x=> x.confirmarSenha)
+        </div>
+
+        <input type="submit" value="Cadastrar" />
+    </fieldset>
+}
+
+<!-- Referenciando a biblioteca JavaScript da pasta "Scripts" para utilizar na validação -->
+@section Scripts {
+@Scripts.Render("~/bundles/jqueryval")
+}

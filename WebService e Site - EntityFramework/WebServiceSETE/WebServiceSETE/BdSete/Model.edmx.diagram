@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f857ef40e8e34af3a48240ac65ba4455" Name="Diagram1">
+        <EntityTypeShape EntityType="BdSeteModel.ST_Cliente" Width="1.5" PointX="3" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BdSeteModel.ST_Empresa" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BdSeteModel.ST_Endereco" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BdSeteModel.ST_Passagem" Width="1.5" PointX="5.25" PointY="2.625" IsExpanded="true" />
+        <AssociationConnector Association="BdSeteModel.FK_ST_Cliente_ST_Endereco" ManuallyRouted="false" />
+        <AssociationConnector Association="BdSeteModel.FK_ST_Passagem_ST_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="BdSeteModel.FK_ST_Empresa_ST_Endereco" ManuallyRouted="false" />
+        <AssociationConnector Association="BdSeteModel.FK_ST_Passagem_ST_Empresa" ManuallyRouted="false" />
+        <AssociationConnector Association="BdSeteModel.FK_ST_Passagem_ST_Endereco" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

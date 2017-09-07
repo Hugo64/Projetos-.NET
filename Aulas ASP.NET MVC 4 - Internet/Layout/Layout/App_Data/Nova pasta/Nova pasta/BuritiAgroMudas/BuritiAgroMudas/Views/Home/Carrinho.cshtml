@@ -1,0 +1,175 @@
+﻿@model IEnumerable<BuritiAgroMudas.Models.Carrinho>
+
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="expires" content="-1" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <title>Buriti Agro Mudas</title>
+    <link rel="icon" type="image/png" href="~/Source/Imagens/Planta_fundo_transparente_V2.png" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="~/Source/Css/buritiAgroMudas.css" />
+    <link rel="stylesheet" href="~/Source/Css/bootstrap.css" />
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <script src="~/Scripts/javaScript.js"></script>
+
+    <script>
+        var isFirefox = typeof InstallTrigger !== 'undefined';
+
+            $.ajaxSetup({
+                cache: false
+            });
+
+        function quantidadeDefinido(id)
+        {
+            $("#painel").load('/Home/quantidadeMudas?id='+id);
+
+            if (isFirefox != true) {
+                $.ajaxSetup({
+                    cache: false
+                });
+            }
+        }
+
+        function quantidadeDefinidoMudas(des) {
+
+            var Carrinho = {
+                descricao: des,
+                quantidade: $("#quantidadeMudas").val(),
+                opcao: "quantidadeDefinida"
+            };
+
+            $.ajax({
+                type: "POST",
+                url: "/Home/opcaoQuantidade",
+                data: Carrinho
+            });
+
+            $("#painel").load('/Home/CarrinhoRefresh');
+
+            if (isFirefox != true) {
+                $.ajaxSetup({
+                    cache: false
+                });
+            }
+        }
+
+        function quantidade(des, quant, op) {
+            var Carrinho = {         
+                descricao: des,      
+                quantidade: quant,
+                opcao: op            
+            };
+
+            $.ajax({                               
+                type: "POST",                      
+                url: "/Home/opcaoQuantidade",       
+                data: Carrinho
+            });
+
+            $("#painel").load('/Home/CarrinhoRefresh');
+
+            if (isFirefox != true) {
+            $.ajaxSetup({
+                cache: false
+            });
+            }
+        }
+
+        function excluir(des) {
+            var Carrinho = {
+                descricao: des,
+            };
+
+            $.ajax({
+                type: "POST",
+                url: "/Home/excluirProduto",
+                data: Carrinho
+            });
+
+            $("#painel").load('/Home/CarrinhoRefresh');
+
+            if (isFirefox != true) {
+                $.ajaxSetup({
+                    cache: false
+                });
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <header id="hea">
+        <a href="#" onclick="abrirMenu()"><img src="~/Source/Imagens/ic_playlist_add_white_36px.svg" style="width: 64px;height:64px"></a>
+        <img src="~/Source/Imagens/Planta_fundo_transparente_V2.png" style="width: 100px;height:100px" />
+        <ul id="menu">
+            <li><a href="/Home/Index">Página Inicial</a></li>
+            <li><a href="/Home/Venda_Frutiferas">Árvores Frutíferas</a></li>
+            <li><a href="/Home/Venda_Jardim">Ornamentais e Jardins</a></li>
+            <li><a href="/Home/Venda_Fertilizantes">Fertilizantes</a></li>
+            <li><a href="/Home/Venda_Sementes">Sementes</a></li>
+        </ul>
+        <div id="div-menu-responsivo">
+            <ul id="menu-responsivo">
+                <li><a href="/Home/Index">Página Inicial</a></li>
+                <li><a href="/Home/Venda_Frutiferas">Árvores Frutíferas</a></li>
+                <li><a href="/Home/Venda_Jardim">Ornamentais e Jardins</a></li>
+                <li><a href="/Home/Venda_Fertilizantes">Fertilizantes</a></li>
+                <li><a href="/Home/Venda_Sementes">Sementes</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="painel">
+        @foreach (var item in Model)
+        {
+            <div id="descricao" class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">@Html.DisplayFor(modelItem => item.descricao)</h3>
+                </div>
+                <div class="panel-body">
+                    <label>Preço: R$</label>
+                    @Html.DisplayFor(modelItem => item.preco)
+                    <br />
+                    <label>Quantidade:</label>
+
+                    @Html.DisplayFor(modelItem => item.quantidade)
+                    <br />
+                    <label>Valor Total: R$</label>
+                    @Html.DisplayFor(modelItem => item.valorTotal)
+                </div>
+
+            </div>
+            <div id="opcoes" class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Opçoes:</h3>
+                </div>
+                <div class="panel-body">
+                       <button onclick="quantidadeDefinido('@item.id')" class="btn btn-primary quantidade">Quantidade</button>
+                       <br />
+                       <button id="buttonMais" class="btn btn-primary" onclick="quantidade('@item.descricao', '1', '+')">+</button>
+                       <button id="buttonMenos" class="btn btn-primary" onclick="quantidade('@item.descricao', '1', '-')">-</button>
+                       <button id="excluir" class="btn btn-primary" onclick="excluir('@item.descricao')">Excluir</button>
+                </div>
+            </div>
+        }
+        <div class="alert alert-success" style="float:left; width:100%" role="alert"><strong>Valor total da compra: R$ @ViewBag.ValorTodosProdutos</strong></div>
+    </div>
+    <footer id="foor">
+        <ul id="redessociais">
+            <li><a href="#"><img src="~/Source/Imagens/1481144039_fb.svg" style="width: 50px;height:50px"></a></li>
+            <li><a href="#"><img src="~/Source/Imagens/1481144085_whatsapp.svg" style="width: 50px;height:50px"></a></li>
+            <li><a href="#"><img src="~/Source/Imagens/1481144208_gmail.svg" style="width: 50px;height:50px"></a></li>
+        </ul>
+        <ul id="contatos">
+            <li><h4 style="color: #ff6a00;">Contatos:</h4></li>
+            <li>Celular: (77) 9 9927 - 8361</li>
+            <li>Email:   geraldocruz5@hotmail.com</li>
+            <li><h4 style="color:#ffd800">Endereço:</h4></li>
+            <li>Rua: Antônio Carlos Viana, Nº 763</li>
+            <li>Município: Buritirama - BA</li>
+        </ul>
+        <img id="propaganda" src="~/Source/Imagens/propaganda.jpeg" style="width: 280px;height:80px;" />
+    </footer>    
+</body>
+</html>

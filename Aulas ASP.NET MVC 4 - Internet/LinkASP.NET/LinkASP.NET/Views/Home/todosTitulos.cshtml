@@ -1,0 +1,24 @@
+﻿@model IEnumerable<LinkASP.NET.Models.Buritirama>
+@{
+    ViewBag.Title = "todosTitulos";
+}
+
+<h2>todosTitulos</h2>
+
+<div>
+<ul>
+    @foreach (var Item in Model)
+    {
+        <li>
+            @Html.ActionLink(Item.Titulo, "mostraTexto", "Home", new
+           {
+               @NoticiaId = Item.NoticiaId,
+               @Categoria = Item.Categoria,
+               @Titulo = Item.Titulo
+           }, null)
+            <em>@Html.DisplayFor(modelitem => Item.Categoria)</em>
+            <b>@Html.DisplayFor(modelitem => Item.Data)</b>
+        </li>
+    }
+</ul>
+</div>

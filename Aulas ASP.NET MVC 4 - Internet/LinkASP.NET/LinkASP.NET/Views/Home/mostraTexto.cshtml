@@ -1,0 +1,19 @@
+﻿@model LinkASP.NET.Models.Buritirama
+@{
+    ViewBag.Title = "mostraTexto";
+}
+
+<h2>mostraTexto</h2>
+
+@Model.Data = @Html.ActionLink(Model.Categoria, "mostraTitulo", "Home", new
+                 {
+                     @Categoria = Model.Categoria
+
+                 }, null)
+
+<div>
+    @Model.Texto
+</div>
+<div>
+    @Model.Comentario
+</div>

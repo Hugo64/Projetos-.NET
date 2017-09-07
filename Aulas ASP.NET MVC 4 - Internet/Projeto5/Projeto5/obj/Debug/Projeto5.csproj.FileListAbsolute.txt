@@ -1,0 +1,58 @@
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\Projeto5.dll.config
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\Projeto5.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\Projeto5.pdb
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\Antlr3.Runtime.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\EntityFramework.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\Microsoft.Web.Infrastructure.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\Newtonsoft.Json.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\System.Web.Mvc.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\System.Web.Optimization.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\System.Web.Providers.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\System.Web.Razor.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\System.Web.WebPages.Deployment.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\System.Web.WebPages.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\System.Web.WebPages.Razor.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\WebGrease.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\EntityFramework.xml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\Newtonsoft.Json.xml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\System.Web.Mvc.xml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\System.Web.Razor.xml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\System.Web.WebPages.xml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\System.Web.WebPages.Deployment.xml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\bin\System.Web.WebPages.Razor.xml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\obj\Debug\Projeto5.csprojResolveAssemblyReference.cache
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\obj\Debug\Projeto5.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Projeto5\Projeto5\obj\Debug\Projeto5.pdb
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\Projeto5.dll.config
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\Projeto5.dll
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\Projeto5.pdb
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\Antlr3.Runtime.dll
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\EntityFramework.dll
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\Newtonsoft.Json.dll
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\System.Net.Http.Formatting.dll
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\System.Web.Http.dll
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\System.Web.Http.WebHost.dll
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\System.Web.Mvc.dll
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\System.Web.Optimization.dll
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\System.Web.Providers.dll
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\System.Web.Razor.dll
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\System.Web.WebPages.Deployment.dll
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\System.Web.WebPages.dll
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\System.Web.WebPages.Razor.dll
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\WebGrease.dll
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\EntityFramework.xml
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\Newtonsoft.Json.xml
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\System.Net.Http.Formatting.xml
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\System.Web.Http.xml
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\System.Web.Http.WebHost.xml
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\System.Web.Mvc.xml
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\System.Web.Razor.xml
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\System.Web.WebPages.xml
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\System.Web.WebPages.Deployment.xml
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\bin\System.Web.WebPages.Razor.xml
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\obj\Debug\Projeto5.csprojResolveAssemblyReference.cache
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\obj\Debug\Projeto5.dll
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\ASP.NET MVC 4\Aulas ASP.NET MVC 4 - Internet\Projeto5\Projeto5\obj\Debug\Projeto5.pdb

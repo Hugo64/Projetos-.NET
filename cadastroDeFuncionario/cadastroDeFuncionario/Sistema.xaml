@@ -1,0 +1,26 @@
+﻿<Window x:Class="cadastroDeFuncionario.Sistema"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Sistema" Height="393.299" Width="565.882" FontFamily="Segoe Print" ResizeMode="CanResizeWithGrip">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF931F1F" Offset="0.096"/>
+            <GradientStop Color="White" Offset="0.096"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Label Name="LabelExibirNome" Content="Label" HorizontalAlignment="Left" Margin="3,0,0,0" VerticalAlignment="Top" Height="34" FontFamily="Arial"/>
+        <Menu Height="38" Margin="0,34,-888,0" VerticalAlignment="Top" Background="#FFDDDDDD" HorizontalAlignment="Left" Width="1446">
+            <MenuItem Name="OpcaoCadastrar" Header="Funcionário" FontWeight="Bold" FontSize="14">
+                <MenuItem Name="menuCadastrarFuncionario" Header="Cadastrar funcionário" Margin="0,0,-21,0" Click="menuCadastrarFuncionario_Click"/>
+                <MenuItem Name="menuPesquisarFuncionario" Header="Buscar funcionário" HorizontalAlignment="Left" Width="229" Margin="0,0,-21,0" Click="menuPesquisarFuncionario_Click"/>
+            </MenuItem>
+            <MenuItem Name="OpcaoAdministrador" Header="Administrador" FontWeight="Bold" FontSize="14" IsEnabled="False">
+                <MenuItem Name="menuNovoAdministrador" Header="Cadastrar administrador" Margin="0,0,-43,0" Click="menuNovoAdministrador_Click"/>
+                <MenuItem Name="menuBuscarAdministrador" Header="Buscar administrador" Margin="0,0,-48,0" Click="menuBuscarAdministrador_Click"/>
+                <MenuItem Name="menuDadosDoServidor" Header="Dados do servidor" Margin="0,0,-48,0" Click="menuDadosDoServidor_Click"/>
+            </MenuItem>
+        </Menu>
+
+    </Grid>
+</Window>

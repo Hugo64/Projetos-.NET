@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BdSeteModelStoreContainer" CdmEntityContainer="BdSeteEntities">
+    <EntitySetMapping Name="ST_Cliente">
+      <EntityTypeMapping TypeName="BdSeteModel.ST_Cliente">
+        <MappingFragment StoreEntitySet="ST_Cliente">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="C_Nome" ColumnName="C_Nome" />
+          <ScalarProperty Name="C_Identidade" ColumnName="C_Identidade" />
+          <ScalarProperty Name="C_Cpf" ColumnName="C_Cpf" />
+          <ScalarProperty Name="C_Identificacao" ColumnName="C_Identificacao" />
+          <ScalarProperty Name="C_Contato" ColumnName="C_Contato" />
+          <ScalarProperty Name="C_Email" ColumnName="C_Email" />
+          <ScalarProperty Name="fk_id_Endereco" ColumnName="fk_id_Endereco" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ST_Empresa">
+      <EntityTypeMapping TypeName="BdSeteModel.ST_Empresa">
+        <MappingFragment StoreEntitySet="ST_Empresa">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="C_Nome" ColumnName="C_Nome" />
+          <ScalarProperty Name="C_Cnpj" ColumnName="C_Cnpj" />
+          <ScalarProperty Name="fk_id_Endereco" ColumnName="fk_id_Endereco" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ST_Endereco">
+      <EntityTypeMapping TypeName="BdSeteModel.ST_Endereco">
+        <MappingFragment StoreEntitySet="ST_Endereco">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="C_Estado" ColumnName="C_Estado" />
+          <ScalarProperty Name="C_Cidade" ColumnName="C_Cidade" />
+          <ScalarProperty Name="C_Bairro" ColumnName="C_Bairro" />
+          <ScalarProperty Name="C_Rua" ColumnName="C_Rua" />
+          <ScalarProperty Name="C_Numero" ColumnName="C_Numero" />
+          <ScalarProperty Name="C_Referencia" ColumnName="C_Referencia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ST_Passagem">
+      <EntityTypeMapping TypeName="BdSeteModel.ST_Passagem">
+        <MappingFragment StoreEntitySet="ST_Passagem">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="C_Poltrona" ColumnName="C_Poltrona" />
+          <ScalarProperty Name="C_Numeracao" ColumnName="C_Numeracao" />
+          <ScalarProperty Name="B_Cancelar" ColumnName="B_Cancelar" />
+          <ScalarProperty Name="fk_id_Empresa" ColumnName="fk_id_Empresa" />
+          <ScalarProperty Name="fk_id_Endereco_Destino" ColumnName="fk_id_Endereco_Destino" />
+          <ScalarProperty Name="fk_id_Cliente" ColumnName="fk_id_Cliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

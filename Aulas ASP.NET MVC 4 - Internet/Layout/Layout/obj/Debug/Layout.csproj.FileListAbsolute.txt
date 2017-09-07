@@ -1,0 +1,54 @@
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\Layout.dll.config
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\Layout.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\Layout.pdb
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\Antlr3.Runtime.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\EntityFramework.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\Microsoft.Web.Infrastructure.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\Newtonsoft.Json.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\System.Web.Mvc.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\System.Web.Optimization.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\System.Web.Providers.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\System.Web.Razor.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\System.Web.WebPages.Deployment.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\System.Web.WebPages.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\System.Web.WebPages.Razor.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\WebGrease.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\EntityFramework.xml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\Newtonsoft.Json.xml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\System.Web.Mvc.xml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\System.Web.Razor.xml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\System.Web.WebPages.xml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\System.Web.WebPages.Deployment.xml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\System.Web.WebPages.Razor.xml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\obj\Debug\Layout.csprojResolveAssemblyReference.cache
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\obj\Debug\Layout.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\obj\Debug\Layout.pdb
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\Estudos HTML-CSS-JAVASCRIPT-PHP\Códigos ASP.NET\Layout\Layout\bin\WebActivator.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\Layout.dll.config
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\Layout.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\Layout.pdb
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\Antlr3.Runtime.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\EntityFramework.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\Microsoft.Web.Infrastructure.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\Newtonsoft.Json.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\System.Web.Mvc.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\System.Web.Optimization.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\System.Web.Providers.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\System.Web.Razor.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\System.Web.WebPages.Deployment.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\System.Web.WebPages.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\System.Web.WebPages.Razor.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\WebActivator.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\WebGrease.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\EntityFramework.xml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\Newtonsoft.Json.xml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\System.Web.Mvc.xml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\System.Web.Razor.xml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\System.Web.WebPages.xml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\System.Web.WebPages.Deployment.xml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\bin\System.Web.WebPages.Razor.xml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\obj\Debug\Layout.csprojResolveAssemblyReference.cache
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\obj\Debug\Layout.dll
+D:\Documentos\Análise e Desenvolvimento de Sistemas\ESTUDOS DE PROGRAMAÇÃO\ASP.NET MVC 4\Códigos ASP.NET\Layout\Layout\obj\Debug\Layout.pdb

@@ -1,0 +1,277 @@
+﻿
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="expires" content="-1" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <title>Buriti Agro Mudas</title>
+    <link rel="icon" type="image/png" href="~/Source/Imagens/Planta_fundo_transparente_V2.png" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+    <script src="~/Source/Js/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery-3.1.1.js"></script>
+    <script src="~/Source/Js/jquery.unobtrusive-ajax.js"></script>
+    <script src="~/Scripts/javaScript.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/bootbox.min.js"></script>
+    <link href="~/Source/Css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/Source/Css/bootstrap.css" />
+    <link rel="stylesheet" href="~/Source/Css/buritiAgroMudas.css" />
+    <script>
+
+        function contato() {
+            document.location.href = "#foor";
+        }
+
+        window.onload = function() {
+        $(document).ready(function() {
+            $(".comprar").on("click", function () { 
+                var Carrinho = {                    
+                    descricao: this.name,           
+                    quantidadeP: 1                  
+                };
+
+            $.ajax({                                
+                type: "POST",                       
+                url: "/Home/Carrinho",              
+                data: Carrinho,                     
+                success: function (data) {          
+                    var valor = data;               
+                    $('#quantidadeCarrinho').val(valor); 
+                }
+            });
+            });
+        });
+        }
+
+        function whatsapp() {
+            bootbox.confirm({
+                message: "Whatsapp: (77) 9 9927 - 8361",
+                buttons: {
+
+                    cancel: {
+                        label: 'Cancelar',
+                        className: 'btn-danger'
+                    },
+
+                    confirm: {
+                        label: 'Ok',
+                        className: 'btn-success'
+                    }
+                },
+                callback: function (result) {
+
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <header id="hea">
+        <a href="#" onclick="abrirMenu()"><img src="~/Source/Imagens/ic_playlist_add_white_36px.svg" style="width: 64px;height:64px"></a>
+        <img src="~/Source/Imagens/Planta_fundo_transparente_V2.png" style="width: 100px;height:100px" />
+        <ul id="menu">
+            <li><a href="/Home/Index">Página Inicial</a></li>
+            <li><a href="/Home/Venda_Frutiferas">Árvores Frutíferas</a></li>
+            <li><a href="/Home/Venda_Jardim">Ornamentais e Jardins</a></li>
+            <li><a href="/Home/Venda_Fertilizantes">Fertilizantes</a></li>
+            <li><a href="/Home/Venda_Sementes">Sementes</a></li>
+        </ul>
+        @*<div id="carrinho">
+            <img onclick="abrirCarrinho()" src="~/Source/Imagens/ic_shopping_cart_white_36px.svg" style="width:65px;height:65px" />
+            <input id="quantidadeCarrinho" value="@ViewBag.QuantidadeProduto" disabled />
+        </div>*@
+        <div id="div-menu-responsivo">
+            <ul id="menu-responsivo">
+                <li><a href="/Home/Index">Página Inicial</a></li>
+                <li><a href="/Home/Venda_Frutiferas">Árvores Frutíferas</a></li>
+                <li><a href="/Home/Venda_Jardim">Ornamentais e Jardins</a></li>
+                <li><a href="/Home/Venda_Fertilizantes">Fertilizantes</a></li>
+                <li><a href="/Home/Venda_Sementes">Sementes</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="alerta" onclick="contato()" class="alert alert-success" style="float:left; width:100%" role="alert"><h1 style="color: #ff0000 !important;">Oh Não!</h1><strong>No momento não estamos tendo sementes, para mais informações, entre em contato. Contatos se encontra no final dessa página.</strong></div>
+    @*<nav id="top1">
+      <div data-example-id="list-group-custom-content">
+            <div id="arti" class="list-group">
+                <a href="#" id="arti-1" class="list-group-item">
+                    <h4 class="list-group-item-heading">Árvores Frutíferas</h4>
+                    <p class="list-group-item-text">Veja nossa galeria de Árvores Frutíferas! Variedades que podem atender suas necessidades!</p>
+                </a>
+                <a href="#" class="list-group-item bord">
+                    <h4 class="list-group-item-heading">Fertilizantes</h4>
+                    <p class="list-group-item-text">Veja nossa galeria de Fertilizantes! Variedades que podem atender suas necessidades!</p>
+                </a>
+                <a id="artii" href="#" class="list-group-item bord">
+                    <h4 class="list-group-item-heading">Ornamentais e Jardins</h4>
+                    <p class="list-group-item-text">Veja nossa galeria de plantas para seu Jardim! Variedades que podem atender suas necessidades!</p>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 ">
+            <div id="bor" class="thumbnail bordas-none refe">
+                <img src="~/Source/Imagens Jardim/Tuias R$ 50,00.jpeg" style="width: 300px;height:250px" alt="Generic placeholder thumbnail">
+                <div class="caption">
+                    <h3>Tuias</h3>
+                    <p>Preço: R$ 50,00</p>
+                    <p><a name="Tuia" class="btn btn-primary comprar" role="button">Adicionar ao carrinho</a> <a href="#" class="btn btn-default mais" role="button">Mais</a></p>
+                    <p>Adicione ao seu carrinho essa linda Tuia para deixar seu jardim belo. Ou clique em "Mais", e veja nossa galeria repeleta de plantas que podem te agradar.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 ">
+            <div class="thumbnail bordas-none refe">
+                <img src="~/Source/Imagens Jardim/Roseiras R$ 24,00.jpeg" style="width: 300px;height:250px" alt="Generic placeholder thumbnail">
+                <div class="caption">
+                    <h3>Roseiras</h3>
+                    <p>Preço: R$ 24,00</p>
+                    <p><a name="Roseira" class="btn btn-primary comprar" role="button">Adicionar ao carrinho</a> <a href="#" class="btn btn-default mais" role="button">Mais</a></p>
+                    <p>Adicione ao seu carrinho essa linda Roseira para deixar seu jardim belo. Ou clique em "Mais", e veja nossa galeria repeleta de plantas que podem te agradar.</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="produtos">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="~/Source/Imagens Frutíferas/Coco Anão R$ 18,00.jpeg" style="width: 300px;height:250px" alt="Generic placeholder thumbnail" />
+                <div class="caption">
+                    <h3>Coco Anão</h3>
+                    <p>Preço: R$ 18,00</p>
+                    <p><a name="Coco Anão" class="btn btn-primary comprar" role="button">Adicionar ao carrinho</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="~/Source/Imagens Frutíferas/Goiaba Paluma R$ 18,00.jpg" style="width: 300px;height:250px" alt="Generic placeholder thumbnail" />
+                <div class="caption">
+                    <h3>Goiaba Paluma</h3>
+                    <p>Preço: R$ 18,00</p>
+                    <p><a name="Goiaba Paluma" class="btn btn-primary comprar" role="button">Adicionar ao carrinho</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="~/Source/Imagens Frutíferas/Laranja Baía R$ 20,00.jpg" style="width: 300px;height:250px" alt="Generic placeholder thumbnail" />
+                <div class="caption">
+                    <h3>Laranja Baía</h3>
+                    <p>Preço: R$ 20,00</p>
+                    <p><a name="Laranja Baía" class="btn btn-primary comprar" role="button">Adicionar ao carrinho</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="~/Source/Imagens Frutíferas/Laranja Pêra R$ 20,00.jpg" style="width: 300px;height:250px" alt="Generic placeholder thumbnail" />
+                <div class="caption">
+                    <h3>Laranja Pêra</h3>
+                    <p>Preço: R$ 20,00</p>
+                    <p><a name="Laranja Pera" class="btn btn-primary comprar" role="button">Adicionar ao carrinho</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="~/Source/Imagens Frutíferas/Limão Tahiti R$ 20,00.jpg" style="width: 300px;height:250px" alt="Generic placeholder thumbnail" />
+                <div class="caption">
+                    <h3>Limão Tahiti</h3>
+                    <p>Preço: R$ 20,00</p>
+                    <p><a name="Limao Tahiti" class="btn btn-primary comprar" role="button">Adicionar ao carrinho</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="~/Source/Imagens Frutíferas/Manga Rosa 20,00.jpg" style="width: 300px;height:250px" alt="Generic placeholder thumbnail" />
+                <div class="caption">
+                    <h3>Manga Rosa</h3>
+                    <p>Preço: R$ 20,00</p>
+                    <p><a name="Manga Rosa" class="btn btn-primary comprar" role="button">Adicionar ao carrinho</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="~/Source/Imagens Frutíferas/Manga Tommy R$ 20,00.jpg" style="width: 300px;height:250px" alt="Generic placeholder thumbnail" />
+                <div class="caption">
+                    <h3>Manga Tommy</h3>
+                    <p>Preço: R$ 20,00</p>
+                    <p><a name="Manga Tommy" class="btn btn-primary comprar" role="button">Adicionar ao carrinho</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="~/Source/Imagens Frutíferas/Tangerina Ponkan R$ 20,00.jpg" style="width: 300px;height:250px" alt="Generic placeholder thumbnail" />
+                <div class="caption">
+                    <h3>Tangerina Ponkan</h3>
+                    <p>Preço: R$ 20,00</p>
+                    <p><a name="Tangerina Ponkan" class="btn btn-primary comprar" role="button">Adicionar ao carrinho</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="~/Source/Imagens Frutíferas/Laranjas e Tangerina R$ 20,00.jpeg" style="width: 300px;height:250px" alt="Generic placeholder thumbnail"/>
+                    <div class="caption">
+                        <h3>Tuia</h3>
+                        <p>Preço: R$ 20,00</p>
+                        <p><a name="Laranjas e Tangerina" class="btn btn-primary comprar" role="button">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+
+        <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="~/Source/Imagens Frutíferas/Pimentas R$ 20,00.jpg" style="width: 300px;height:250px" alt="Generic placeholder thumbnail"/>
+                    <div class="caption">
+                        <h3>Pimenta</h3>
+                        <p>Preço: R$ 20,00</p>
+                        <p><a name="Pimenta" class="btn btn-primary comprar" role="button">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+
+       <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="~/Source/Imagens Frutíferas/Roseira R$ 24,00.jpg" style="width: 300px;height:250px" alt="Generic placeholder thumbnail"/>
+                    <div class="caption">
+                        <h3>Roseira</h3>
+                        <p>Preço: R$ 24,00</p>
+                        <p><a name="Roseira" class="btn btn-primary comprar" role="button">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+        </nav>*@
+
+    <footer id="foor">
+        <ul id="redessociais">
+            <li><a href="#"><img src="~/Source/Imagens/1481144039_fb.svg" style="width: 50px;height:50px"></a></li>
+            <li><a onclick="whatsapp()"><img src="~/Source/Imagens/1481144085_whatsapp.svg" style="width: 50px;height:50px"></a></li>
+            <li><a href="#"><img src="~/Source/Imagens/1481144208_gmail.svg" style="width: 50px;height:50px"></a></li>
+        </ul>
+        <ul id="contatos">
+            <li><h4 style="color: #ff6a00;">Contatos:</h4></li>
+            <li>Celular: (77) 9 9927 - 8361</li>
+            <li>Email:   geraldocruz5@hotmail.com</li>
+            <li><h4 style="color:#ffd800">Endereço:</h4></li>
+            <li>Rua: Antônio Carlos Viana, Nº 763</li>
+            <li>Município: Buritirama - BA</li>
+        </ul>
+        @*<img id="propaganda" src="~/Source/Imagens/propaganda.jpeg" style="width: 280px;height:80px;" />*@
+    </footer>    
+</body>
+</html>

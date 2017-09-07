@@ -1,0 +1,44 @@
+﻿@model IEnumerable<LinkASP.NET.Models.Buritirama>
+@{
+    ViewBag.Title = "Olá Buritirama!";
+}
+
+<h2><b>Olá Buritirama!</b></h2>
+
+<div>
+    <ul>
+        @foreach (string Item in ViewBag.Categorias)
+        {
+            <li>
+                @Html.ActionLink(Item, "mostraTitulo", "Home", new
+           {
+               @Categoria = Item
+           }, null)
+            </li>
+        }
+    </ul>
+</div>
+
+<div>
+    <ul>
+        @foreach (var Item in Model)
+        {
+            <li>
+                @Html.ActionLink(Item.Titulo, "mostraTexto", "Home", new
+           {
+               @NoticiaId = Item.NoticiaId,
+               @Categoria = Item.Categoria,
+               @Titulo = Item.Titulo
+           }, null)
+                <em>@Html.DisplayFor(modelitem=> Item.Categoria)</em>
+                <b>@Html.DisplayFor(modelitem=> Item.Data)</b>
+            </li>
+        }
+    </ul>
+</div>
+
+<div>
+    <ul>
+        @Html.ActionLink("Mostra todas as noticias", "todosTitulos", "Home")
+    </ul>
+</div>

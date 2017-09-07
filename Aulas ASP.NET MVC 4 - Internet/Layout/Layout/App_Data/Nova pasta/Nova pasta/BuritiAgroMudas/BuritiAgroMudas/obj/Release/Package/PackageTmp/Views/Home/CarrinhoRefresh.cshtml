@@ -1,0 +1,35 @@
+﻿@model IEnumerable<BuritiAgroMudas.Models.Carrinho>
+
+    @foreach (var item in Model)
+    {
+        <div id="descricao" class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">@Html.DisplayFor(modelItem => item.descricao)</h3>
+            </div>
+            <div class="panel-body">
+                <label>Preço: R$</label>
+                @Html.DisplayFor(modelItem => item.preco)
+                <br />
+                <label>Quantidade:</label>
+                @Html.DisplayFor(modelItem => item.quantidade)
+                <br />
+                <label>Valor Total: R$</label>
+                @Html.DisplayFor(modelItem => item.valorTotal)
+            </div>
+
+        </div>
+            <div id="opcoes" class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Opçoes:</h3>
+                </div>
+                <div class="panel-body">
+                    <button onclick="quantidadeDefinido('@item.id')" class="btn btn-primary quantidade">Quantidade</button>
+                    <br />
+                    <button id="buttonMais" class="btn btn-primary" onclick="quantidade('@item.descricao', '1', '+')">+</button>
+                    <button id="buttonMenos" class="btn btn-primary" onclick="quantidade('@item.descricao', '1', '-')">-</button>
+                    <button id="excluir" class="btn btn-primary" onclick="excluir('@item.descricao')">Excluir</button>
+                </div>
+            </div>
+    }
+    <div class="alert alert-success" style="float:left; width:100%" role="alert"><strong>Valor total da compra: R$ @ViewBag.ValorTodosProdutos</strong></div>
+

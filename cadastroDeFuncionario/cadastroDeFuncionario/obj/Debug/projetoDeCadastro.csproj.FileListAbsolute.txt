@@ -1,0 +1,3 @@
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\bin\Debug\cadastroDeFuncionario.exe.config
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.exe
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.pdb

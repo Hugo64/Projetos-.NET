@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Projeto5.Models.Noticia>
+@{
+    ViewBag.Title = "Mostra Categoria";
+}
+
+<h2>Categoria: @ViewBag.Categoria</h2>
+
+<div>
+    <ul>
+        <!--Percorrendo o modelo que recebe um lista de Noticia que foi declarado ali em cima "model IEnumerable<Projeto5.Models.Noticia>..." e-->
+        @foreach (var Item in Model) // Cada vez que ele passar por Noticia ele vai jogar um noticia dentro de Item. Logo Item é uma noticia;
+        {
+            <li>
+                @Html.ActionLink(Item.Titulo, "mostraNoticia", "Home", new  // Lincando os titulos no browser/ Onde se clicar no titulo será redirecionado para a página "mostraNoticia";
+           {
+               @NoticiaId = Item.noticiaId,
+               @Categoria = Item.Categoria.ToLower(),
+               @Titulo = Item.Titulo.ToLower()
+           }, null) <!--Ultimo parametro no qual é a "Data", deixamos null porque não vamos mostra-lo-->
+                <em>@Html.DisplayFor(modelitem => Item.Categoria)</em> <!--"Designer"-->
+                <b>@Html.DisplayFor(modelitem => Item.Data)</b>
+            </li>
+        }
+
+    </ul>
+</div>

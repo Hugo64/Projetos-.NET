@@ -1,0 +1,105 @@
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\bin\Debug\cadastroDeFuncionario.exe.config
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\bin\Debug\cadastroDeFuncionario.exe
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\bin\Debug\cadastroDeFuncionario.pdb
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.csprojResolveAssemblyReference.cache
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\MainWindow.g.cs
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\App.g.cs
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario_MarkupCompile.cache
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario_MarkupCompile.lref
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\MainWindow.baml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.g.resources
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.Properties.Resources.resources
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.csproj.GenerateResource.Cache
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.exe
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.pdb
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\novoAdmin.baml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\novoAdmin.g.cs
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastrarFuncionario.baml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\Sistema.baml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastrarFuncionario.g.cs
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\Sistema.g.cs
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\BuscaFuncionario.baml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\BuscaFuncionario.g.cs
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\exibirDadosFuncionario.baml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\exibirDadosFuncionario.g.cs
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\buscarAdministrador.baml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\buscarAdministrador.g.cs
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\exibirDadosAdministrador.baml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\exibirDadosAdministrador.g.cs
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\esqueciMinhaSenha.baml
+D:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\esqueciMinhaSenha.g.cs
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\bin\Debug\cadastroDeFuncionario.exe.config
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.exe
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.pdb
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\bin\Debug\cadastroDeFuncionario.exe
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\bin\Debug\cadastroDeFuncionario.pdb
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.csprojResolveAssemblyReference.cache
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\buscaFuncionario.baml
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\buscarAdministrador.baml
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastrarFuncionario.baml
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\esqueciMinhaSenha.baml
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\exibirDadosAdministrador.baml
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\exibirDadosFuncionario.baml
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\Sistema.baml
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\buscaFuncionario.g.cs
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\buscarAdministrador.g.cs
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastrarFuncionario.g.cs
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\esqueciMinhaSenha.g.cs
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\exibirDadosAdministrador.g.cs
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\exibirDadosFuncionario.g.cs
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\MainWindow.g.cs
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\Sistema.g.cs
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\App.g.cs
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario_MarkupCompile.cache
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario_MarkupCompile.lref
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\MainWindow.baml
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.g.resources
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.Properties.Resources.resources
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.csproj.GenerateResource.Cache
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\bin\Debug\cadastroDeFuncionario.exe.manifest
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\bin\Debug\cadastroDeFuncionario.application
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.exe.manifest
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.application
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\dadosDoSistema.baml
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\dadosDoSistema.g.cs
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastrarAdministrador.baml
+F:\Documentos\Análise e Desenvolvimento de Sistemas\Estudos de Programação\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastrarAdministrador.g.cs
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\bin\Debug\cadastroDeFuncionario.exe.config
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.exe
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.pdb
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\bin\Debug\cadastroDeFuncionario.exe.manifest
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\bin\Debug\cadastroDeFuncionario.application
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\bin\Debug\cadastroDeFuncionario.exe
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\bin\Debug\cadastroDeFuncionario.pdb
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.csprojResolveAssemblyReference.cache
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\buscaFuncionario.baml
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\buscarAdministrador.baml
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastrarFuncionario.baml
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\dadosDoSistema.baml
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\esqueciMinhaSenha.baml
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\exibirDadosAdministrador.baml
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\exibirDadosFuncionario.baml
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastrarAdministrador.baml
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\Sistema.baml
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\buscaFuncionario.g.cs
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\buscarAdministrador.g.cs
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastrarFuncionario.g.cs
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\dadosDoSistema.g.cs
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\esqueciMinhaSenha.g.cs
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\exibirDadosAdministrador.g.cs
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\exibirDadosFuncionario.g.cs
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\MainWindow.g.cs
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastrarAdministrador.g.cs
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\Sistema.g.cs
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\App.g.cs
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario_MarkupCompile.cache
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario_MarkupCompile.lref
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\MainWindow.baml
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.g.resources
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.Properties.Resources.resources
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.csproj.GenerateResource.Cache
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.exe.manifest
+C:\Users\Anonymou\Documents\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.application
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\Projetos\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\bin\Debug\cadastroDeFuncionario.exe.config
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\Projetos\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.exe
+C:\Users\root\Documents\Análise e Desenvolvimento de Sistemas\Projetos\Csharp\Codigos Csharp\cadastroDeFuncionario\cadastroDeFuncionario\obj\Debug\cadastroDeFuncionario.pdb

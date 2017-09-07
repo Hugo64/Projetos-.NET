@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="cadastroDeFuncionario.exe" version="1.0.0.6" publicKeyToken="5e3d50d9e86f82c5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="cadastroDeFuncionario" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="cadastroDeFuncionario.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="MySql.Data" version="6.9.6.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="cadastroDeFuncionario.exe" size="5386184">
+      <assemblyIdentity name="cadastroDeFuncionario" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1DS7hy1i9ns+9W8/QhlER7pEMXkaqgVmCCFsqdR3Vc0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="cadastroDeFuncionario.exe.config" size="527">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kUhIgRpUJuG4HHgn6DEAOq7AI/vvbfOUPsZCXCegeRU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HUGO-PC\huggo_000" issuerKeyHash="a91c81722e3d12b13a5ee63d498b0bd9280efd4a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jG6VZjPEqgAlttmF98VHTjKECE+rDjGgFoFS/kVAqqc=</DigestValue></Reference></SignedInfo><SignatureValue>aio/fl/WoqMacW4aoMJSTQMOFPwc/F5XCwN0s748t+zPkbZegRuMUqwaK4HV/TFf5k9syFjvLP8gnDyKIheoNkH8AgI9jbXvFXkBAQynH/gBbt9jePPXU8ns766sHJJfE3uIxLlR12EWZ7tZsXYVbli0nV3BQp3+jovAz7JQ8s8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xGHsz+8L/lDh0ynZP473QWC48ogwsmiKLbHBwmmwqgnejSI4g1U4VDrNusms54zN66itm5FwAzRITJfWjVF5pn+7qZNchyvUX+VD/spD5omtq4+NSTajiTGylYHmcoQHQjeCp87Q6ljrgtd8DEoVpEApAIwjUIeIyc0OSvCQzEc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a7aa4045fe528116a0310eab4f0884324e47c5f785d9b62500aac43366956e8c" Description="" Url=""><as:assemblyIdentity name="cadastroDeFuncionario.exe" version="1.0.0.6" publicKeyToken="5e3d50d9e86f82c5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HUGO-PC\huggo_000</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>DwN0Qd+p31AwMCcTAilmpQVoWmtxbOP8tjiYw0amlEQ=</DigestValue></Reference></SignedInfo><SignatureValue>XrtUJLxWy7Rl7rt+nkfMx9w4cvsWJHKsLi9kZy6UrzNpRMUexL276mCvxvjnqHniu6/AAeKiKXbcXOE26vBVJDYZYoG3yYcMeW30xGFSXT14EcEThpoEQye/rlKUZQLB+7uTgZOGB9TFL4B57eT2/EhbcNOqNSb5WhXT5nAKChM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xGHsz+8L/lDh0ynZP473QWC48ogwsmiKLbHBwmmwqgnejSI4g1U4VDrNusms54zN66itm5FwAzRITJfWjVF5pn+7qZNchyvUX+VD/spD5omtq4+NSTajiTGylYHmcoQHQjeCp87Q6ljrgtd8DEoVpEApAIwjUIeIyc0OSvCQzEc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQFEs1OWxcd6VCqiDEeuxnTjANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIASABVAEcATwAtAFAAQwBcAGgAdQBnAGcAbwBfADAAMAAwMB4XDTE1MDcxNDAzNTk1OVoXDTE2MDcxMzA5NTk1OVowLTErMCkGA1UEAx4iAEgAVQBHAE8ALQBQAEMAXABoAHUAZwBnAG8AXwAwADAAMDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxGHsz+8L/lDh0ynZP473QWC48ogwsmiKLbHBwmmwqgnejSI4g1U4VDrNusms54zN66itm5FwAzRITJfWjVF5pn+7qZNchyvUX+VD/spD5omtq4+NSTajiTGylYHmcoQHQjeCp87Q6ljrgtd8DEoVpEApAIwjUIeIyc0OSvCQzEcCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBQrSdLHWMQptOQKwRkTDWXOvg2PqlF6NUT4qcd6GDnQAHsLsuxEtGcFfD+Vmu+GB+Yg6e2ayr9GC7bJ02a9cZwqs0Vz5S8cZ/feAhnyDGzkKUGG2UHtSpmpMLmDKoYtSZCRMZbjoEyqHucWWiZb7JxkPmWq/DIp6t53klf6V/piA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

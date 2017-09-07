@@ -1,0 +1,36 @@
+﻿@model Projeto3.Models.Pessoa
+@{
+    ViewBag.Title = "Cadastro";
+}
+
+<h2>Cadastro</h2>
+
+@using(Html.BeginForm("Lista", "Home", FormMethod.Post))
+{
+    <fieldset>
+        <legend>Pessoa</legend>
+
+        <div>
+            @Html.LabelFor(x=> x.Codigo)
+        </div>
+        <div>
+            @Html.EditorFor(x=> x.Codigo)
+        </div>
+
+        <div>
+            @Html.LabelFor(x=> x.Nome)
+        </div>
+        <div>
+            @Html.EditorFor(x=> x.Nome)
+        </div>
+
+        <div>
+            @Html.LabelFor(x=> x.Email)
+        </div>
+        <div>
+            @Html.EditorFor(x=> x.Email)
+        </div>
+
+        <p><input type="submit" value="Enviar" /></p>
+    </fieldset>
+}

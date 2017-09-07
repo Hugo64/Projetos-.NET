@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h1>Pagina Inicial</h1>
+
+<div class="row-fluid">
+    <div class="hero-unit">
+        <h1>ASP.NET MVC</h1>
+        <p> Essa é uma serie de vídeos sobre asp.net mvc usando novos recursos do mvc 4....</p>
+       <p><a class="btn btn-primary btn-large">Saiba mais</a></p>
+    </div>
+</div>
+
+<!--"section rodape" feito e sendo exibido apenas nesta página, como foi feito a condição no layout-->
+@section rodape{
+    <p>Veja mais em @Html.ActionLink("Sobre", "Index", "Sobre")</p>
+}

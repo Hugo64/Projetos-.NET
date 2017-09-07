@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Projeto5.Models.Noticia>
+@{
+    ViewBag.Title = "Noticias";
+}
+
+<h2>Rotas MVC4 - Noticias</h2>
+
+<div>
+    <ul>
+        <!--Listando todas as categorias que passamos para a ViewBag lá no "HomeController" dentro da "ActionResult Index"-->
+        @foreach (string Item in ViewBag.Categorias) // "string item" porque a Categoria é do tipo string;
+        {
+            <li>
+           @Html.ActionLink(Item, "mostraCategoria", "Home", new // Lincando as categorias no browser/ Onde se clicar será enviado para página "mostraCategoria"
+           {
+             @Categoria = Item // Parametro que será enviado para "mostraCategoria" no qual irá verificar e mostrar as informações dessa categoria;
+           }, null)
+            </li>
+        }
+    </ul>
+</div>
+
+
+<div>
+    <ul> 
+        <!--Percorrendo o modelo que recebe um lista de Noticia que foi declarado ali em cima "model IEnumerable<Projeto5.Models.Noticia>..." e-->
+        @foreach (var Item in Model) // Cada vez que ele passar por Noticia ele vai jogar um noticia dentro de Item. Logo Item é uma noticia;
+        {
+            <li>
+           @Html.ActionLink(Item.Titulo, "mostraNoticia", "Home", new  // Lincando os titulos no browser/ Onde se clicar no titulo será redirecionado para a página "mostraNoticia";
+           {
+             @NoticiaId = Item.noticiaId, // Parametro que será enviado para "mostraNoticia" no qual irá verificar e mostrar as informações dessa Noticia;
+             @Categoria = Item.Categoria.ToLower(),
+             @Titulo = Item.Titulo.ToLower()
+           }, null) <!--Ultimo parametro no qual é a "Data", deixamos null porque não vamos mostra-lo-->
+                <em>@Html.DisplayFor(modelitem=> Item.Categoria)</em> <!--"Designer"-->
+                <b>@Html.DisplayFor(modelitem=> Item.Data)</b>
+            </li>
+        }
+        
+    </ul>
+</div>
+
+<div>
+    @Html.ActionLink("Todas as noticias", "todasNoticias", "Home") <!--Lincando a página "todasNoticias" para exibir todas as Noticias -->
+</div>

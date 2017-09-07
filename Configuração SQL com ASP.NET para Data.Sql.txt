@@ -1,0 +1,19 @@
+Primeiramente vá até web.config insere esse exemplo dentro do <Configuration></Configuration>:
+
+<connectionStrings>
+    <add name="DataConnectionString"
+      connectionString="Data Source=localhost; User ID=sa;Password=android.com;Integrated Security=SSPI;Initial Catalog=BdSete"
+      providerName="System.Data.SqlClient" />
+  </connectionStrings>
+
+- Subistitui os dados pelo seus.
+
+A conexão na aplicação fisica:
+
+SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["DataConnectionString"].ConnectionString);
+
+- Onde ["DataConnectionString"] é o <name que está no web.config.
+
+Depois segue as configurações para permitir a conexão com SQL Server no SQL Server...
+
+https://pt.stackoverflow.com/questions/10160/problema-ao-conectar-com-o-banco-de-dados-sql-server-2012-no-iis

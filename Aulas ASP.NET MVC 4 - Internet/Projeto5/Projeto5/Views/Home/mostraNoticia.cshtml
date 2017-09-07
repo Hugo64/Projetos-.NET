@@ -1,0 +1,19 @@
+﻿@model Projeto5.Models.Noticia
+@{
+    ViewBag.Title = "Model.Titulo";
+}
+
+<h2>Model.Titulo</h2>
+
+<em>
+    
+    @Model.Data = @Html.ActionLink(Model.Categoria, "mostraCategoria", "Home", new 
+                 {
+                     @Categoria = Model.Categoria
+                     
+                 }, null)
+</em>
+
+<div>
+    @Model.Conteudo <!--Esse é o importante !! Esse mostra a noticia!... O de cima é só um link!-->
+</div>

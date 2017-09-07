@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="InserirEndereco">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="endereco" type="tns:Endereco" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Endereco">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="C_Estado" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="C_Cidade" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="C_Bairro" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="C_Rua" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="C_Numero" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="C_Referencia" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="InserirEnderecoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="InserirEnderecoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InserirEmpresa">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="empresa" type="tns:Empresa" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Empresa">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="C_Nome" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="C_Cnpj" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="endereco" type="tns:Endereco" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="InserirEmpresaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="InserirEmpresaResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InserirCliente">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cliente" type="tns:Cliente" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Cliente">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="C_Nome" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="C_Identidade" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="C_Cpf" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="C_Identificacao" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="C_Contato" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="C_Email" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="endereco" type="tns:Endereco" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="InserirClienteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="InserirClienteResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InserirPassagem">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="passagem" type="tns:Passagem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Passagem">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="C_Poltrona" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="C_Numeracao" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="B_Cancelar" nillable="true" type="s:unsignedByte" />
+          <s:element minOccurs="0" maxOccurs="1" name="cliente" type="tns:Cliente" />
+          <s:element minOccurs="0" maxOccurs="1" name="empresa" type="tns:Empresa" />
+          <s:element minOccurs="0" maxOccurs="1" name="endereco" type="tns:Endereco" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="InserirPassagemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="InserirPassagemResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PassagemDoCliente">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Cpf" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PassagemDoClienteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PassagemDoClienteResult" type="tns:Passagem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="InserirEnderecoSoapIn">
+    <wsdl:part name="parameters" element="tns:InserirEndereco" />
+  </wsdl:message>
+  <wsdl:message name="InserirEnderecoSoapOut">
+    <wsdl:part name="parameters" element="tns:InserirEnderecoResponse" />
+  </wsdl:message>
+  <wsdl:message name="InserirEmpresaSoapIn">
+    <wsdl:part name="parameters" element="tns:InserirEmpresa" />
+  </wsdl:message>
+  <wsdl:message name="InserirEmpresaSoapOut">
+    <wsdl:part name="parameters" element="tns:InserirEmpresaResponse" />
+  </wsdl:message>
+  <wsdl:message name="InserirClienteSoapIn">
+    <wsdl:part name="parameters" element="tns:InserirCliente" />
+  </wsdl:message>
+  <wsdl:message name="InserirClienteSoapOut">
+    <wsdl:part name="parameters" element="tns:InserirClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="InserirPassagemSoapIn">
+    <wsdl:part name="parameters" element="tns:InserirPassagem" />
+  </wsdl:message>
+  <wsdl:message name="InserirPassagemSoapOut">
+    <wsdl:part name="parameters" element="tns:InserirPassagemResponse" />
+  </wsdl:message>
+  <wsdl:message name="PassagemDoClienteSoapIn">
+    <wsdl:part name="parameters" element="tns:PassagemDoCliente" />
+  </wsdl:message>
+  <wsdl:message name="PassagemDoClienteSoapOut">
+    <wsdl:part name="parameters" element="tns:PassagemDoClienteResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebServiceSoap">
+    <wsdl:operation name="InserirEndereco">
+      <wsdl:input message="tns:InserirEnderecoSoapIn" />
+      <wsdl:output message="tns:InserirEnderecoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InserirEmpresa">
+      <wsdl:input message="tns:InserirEmpresaSoapIn" />
+      <wsdl:output message="tns:InserirEmpresaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InserirCliente">
+      <wsdl:input message="tns:InserirClienteSoapIn" />
+      <wsdl:output message="tns:InserirClienteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InserirPassagem">
+      <wsdl:input message="tns:InserirPassagemSoapIn" />
+      <wsdl:output message="tns:InserirPassagemSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PassagemDoCliente">
+      <wsdl:input message="tns:PassagemDoClienteSoapIn" />
+      <wsdl:output message="tns:PassagemDoClienteSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServiceSoap" type="tns:WebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="InserirEndereco">
+      <soap:operation soapAction="http://tempuri.org/InserirEndereco" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserirEmpresa">
+      <soap:operation soapAction="http://tempuri.org/InserirEmpresa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserirCliente">
+      <soap:operation soapAction="http://tempuri.org/InserirCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserirPassagem">
+      <soap:operation soapAction="http://tempuri.org/InserirPassagem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PassagemDoCliente">
+      <soap:operation soapAction="http://tempuri.org/PassagemDoCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceSoap12" type="tns:WebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="InserirEndereco">
+      <soap12:operation soapAction="http://tempuri.org/InserirEndereco" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserirEmpresa">
+      <soap12:operation soapAction="http://tempuri.org/InserirEmpresa" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserirCliente">
+      <soap12:operation soapAction="http://tempuri.org/InserirCliente" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserirPassagem">
+      <soap12:operation soapAction="http://tempuri.org/InserirPassagem" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PassagemDoCliente">
+      <soap12:operation soapAction="http://tempuri.org/PassagemDoCliente" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService">
+    <wsdl:port name="WebServiceSoap" binding="tns:WebServiceSoap">
+      <soap:address location="http://localhost:49587/WebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceSoap12" binding="tns:WebServiceSoap12">
+      <soap12:address location="http://localhost:49587/WebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

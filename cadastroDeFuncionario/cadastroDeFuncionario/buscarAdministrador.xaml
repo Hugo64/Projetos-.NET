@@ -1,0 +1,19 @@
+﻿<Window x:Class="cadastroDeFuncionario.buscarAdministrador"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Buscar Administrador" Height="712.299" Width="603.082" FontFamily="Segoe Print" ResizeMode="CanResizeWithGrip">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF931F1F" Offset="0.060"/>
+            <GradientStop Color="White" Offset="0.060"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <TextBox Name="TextBoxBuscar" HorizontalAlignment="Left" Height="26" Margin="95,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="415" FontFamily="Arial" TextChanged="TextBoxBuscar_TextChanged"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="-1,44,0,0" VerticalAlignment="Top" Width="100" Source="Magnifier2.ico"/>
+        <ListBox Name="listBoxExibindoNomeAdministrador" HorizontalAlignment="Left" Height="518" Margin="10,149,0,0" VerticalAlignment="Top" Width="574" SelectionChanged="listBoxExibindoNomeAdministrador_SelectionChanged" FontFamily="Arial"/>
+        <Button Name="ButtonBuscar" Content="Buscar" HorizontalAlignment="Left" Margin="509,68,0,0" VerticalAlignment="Top" Width="75" Height="26" Click="ButtonBuscar_Click" FontFamily="Arial"/>
+        <Label Name="LabelNumeroDeRegistros" Content="Label" HorizontalAlignment="Left" Margin="296,110,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial"/>
+        <Label Content="Informe o nome para iniciar a busca, ou o EMAIL e clique em &quot;Buscar&quot;." HorizontalAlignment="Left" Margin="10,8,0,0" VerticalAlignment="Top" Background="Transparent" FontWeight="Bold" FontFamily="Arial"/>
+    </Grid>
+</Window>

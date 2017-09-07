@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <!--Carregando todos arquivos (css) do "bootstrap", arquivo qual instalamos o pacote para utilizarmos no layout da página -->
+    @Styles.Render("~/Content/bootstrap")
+
+    @Scripts.Render("~/bundles/modernizr")
+
+    @Scripts.Render("~/bundles/jquery")
+
+    <!--Carregando arquivos scripts do "bootstrap"-->
+    @Scripts.Render("~/bundles/bootstrap")
+
+</head>
+
+<!--OBS: Qualquer arquivos "cshtml" que eu criar e disponibilizar neste layout sem especificar aonde será, será adicionada em todas as páginas-->
+
+<!--Começo de tudo "<body>"-->
+<body>
+
+
+    <!--"<div class="container", cerca todo conteudo do site-->
+    <div class="container">
+        
+        <!--Chamando o arquivo layout que criamos -> "_Topo.cshtml" e exibir o que tem nele em todos os sites-->
+        @RenderPage("~/Views/Shared/_Topo.cshtml")
+
+        <!--Fazendo um linha do bootstrap-->
+        <div class="row">
+
+            <!--O Partial pode me retornar algo se eu quiser-->
+            @Html.Partial("_MenuLateral")
+
+            <div class="span9">
+
+                <!--Onde se encontra nossas páginas-->
+                @RenderBody()
+                </div>
+                </div>
+
+        <div class="row">
+            
+                <!--Linha "<hr/>"-->
+                <hr />
+
+                <!--Rodape "<footer class="pull-right">, alinhando a esquerta -->
+                <footer class="pull-right">
+
+                <!--Verificando se em alguma página possui algum (Section) chamado "rodape" feito -->
+                @if (IsSectionDefined("rodape"))
+                {
+                    
+        <!--Se tiver algum (Section) chamado "rodape", ele irá mostrar-->
+                    @RenderSection("rodape")
+                }
+                else
+                {
+                    
+        <!-- Se não tiver, ele mostra o padrão que é o "_Rodape"-->
+                    @Html.Partial("_Rodape")
+                }
+              </footer>
+          </div>
+      </div>
+<!--Fim de tudo "</body>"-->
+   </body>
+</html>
