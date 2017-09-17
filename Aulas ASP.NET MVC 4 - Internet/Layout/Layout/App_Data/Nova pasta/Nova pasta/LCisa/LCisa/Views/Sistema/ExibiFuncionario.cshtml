@@ -1,0 +1,109 @@
+﻿@model LCisa.App_Data.LCvendedor
+@{
+    ViewBag.Title = "ExibirFuncionario";
+}
+
+<html>
+<head>
+    <title>Funcionário</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/Css/login-funcionario.css" />
+    <link rel="icon" type="image/png" href="~/Content/Imagens/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="~/Content/Imagens/favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" type="text/css" href="~/Content/Css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/Css/bootstrap-theme.min.css" />
+    <script type="text/javascript" src="~/Scripts/Js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/Js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/Js/qrcode.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/Js/qrcode.js"></script>
+    <script type="text/javascript" src="~/Scripts/Js/jquery.maskedinput-1.1.4.pack.js"></script>
+    <script type="text/javascript" src="~/Scripts/Js/login-funcionario.js"></script>
+</head>
+<body>
+    <div>
+        <form>
+            <fieldset>
+                <br>
+                <legend>Informações Pessoais</legend>
+                <label for="nome">Nome</label>
+                <input type="text" name="C_Nome" value="@Model.LCfuncionario.C_Nome" class="form-control" id="nomeRh" disabled required="" />
+                <br>
+                <label for="cpf">CPF:</label>
+                <input type="text" name="C_Cpf" value="@Model.LCfuncionario.C_Cpf" class="form-control" id="cpf" disabled required="" />
+                <br>
+                <label for="cnpj">CNPJ:</label>
+                <input type="text" name="C_Cnpj" value="@Model.LCfuncionario.C_Cnpj" class="form-control" id="cnpj" disabled />
+                <br>
+                <label for="sexo">Sexo</label>
+                <input type="text" name="C_Sexo" value="@Model.LCfuncionario.C_Sexo" class="form-control" id="sexo" disabled required=""/>
+                <br>
+                <label for="data-nasc">Data de Nascimento:</label>
+                <input type="text" name="D_DataNasc" value="@Model.LCfuncionario.D_DataNasc" class="form-control" id="data-nasc" disabled required="" />
+                <br>
+                <label for="tel-fix">Telefone Fixo:</label>
+                <input type="text" name="C_Telefone" value="@Model.LCfuncionario.C_Telefone" class="form-control" id="tel-fix" disabled required="" />
+                <br>
+                <label for="celular">Celular:</label>
+                <input type="text" name="C_Celular" value="@Model.LCfuncionario.C_Celular" class="form-control" id="celular" disabled required="" />
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="C_Email" value="@Model.LCfuncionario.C_Email" class="form-control" id="email" disabled />
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Endereço</legend>
+                <br>
+                <label for="endereco">Endereço:</label>
+                <input type="text" name="C_Endereco" value="@Model.LCfuncionario.LCendereco.C_Endereco" maxlength="50" class="form-control" id="endereco" disabled required="" />
+                <br>
+                <label for="numero">Numero:</label>
+                <input type="number" name="C_Numero" value="@Model.LCfuncionario.LCendereco.C_Numero" class="form-control" id="numero" disabled required="" />
+                <br>
+                <label for="bairro">Bairro:</label>
+                <input type="text" name="C_Bairro" value="@Model.LCfuncionario.LCendereco.C_Bairro" class="form-control" id="bairro" disabled required="" />
+                <br>
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="C_Cidade" value="@Model.LCfuncionario.LCendereco.C_Cidade" class="form-control" id="cidade" disabled required="" />
+                <br>
+                <label for="estado">Estado:</label>
+                <input type="text" name="C_Estado" value="@Model.LCfuncionario.LCendereco.C_Estado" class="form-control" id="estado" disabled required="" />
+                <br>
+                <label for="cep">CEP:</label>
+                <input type="text" name="C_Cep" value="@Model.LCfuncionario.LCendereco.C_Cep" class="form-control" id="cep" disabled required="" />
+                <br>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Departamento</legend>
+                <label for="carteira">Nº Carteira:</label>
+                <input type="text" name="C_Carteira" value="@Model.LCfuncionario.LCdepartamento.C_Carteira" class="form-control" id="carteira" disabled required="" />
+                <br>
+                <label for="salario">Salario:</label>
+                <input type="number" name="I_Salario" value="@Model.LCfuncionario.LCdepartamento.I_Salario" class="form-control" id="salario" disabled required="" />
+                <br>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Sistema</legend>
+                <label for="cargo">Codigo de Login</label>
+                <input type="text" name="C_Login" value="@Model.LCfuncionario.LCsistema.C_Login" class="form-control" id="login" disabled required="" />
+                <br>
+                <label for="carteira">Senha:</label>
+                <input type="text" name="C_Senha" value="@Model.LCfuncionario.LCsistema.C_Senha" class="form-control" id="senha" disabled required="" />
+                <br>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Vendedor</legend>
+                <label for="cargo">Bonificação</label>
+                <input type="number" value="@Model.I_Bonificacao" name="I_Bonificacao" class="form-control" id="bonificacao" disabled required="" />
+                <br />
+                <br />
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

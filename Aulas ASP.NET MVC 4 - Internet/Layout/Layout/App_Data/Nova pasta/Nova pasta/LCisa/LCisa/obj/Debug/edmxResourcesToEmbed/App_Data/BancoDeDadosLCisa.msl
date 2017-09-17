@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LojaCisaModelStoreContainer" CdmEntityContainer="EntidadeLojaCisa">
+    <EntitySetMapping Name="LCcomprovante">
+      <EntityTypeMapping TypeName="LojaCisaModel.LCcomprovante">
+        <MappingFragment StoreEntitySet="LCcomprovante">
+          <ScalarProperty Name="LCvenda_id" ColumnName="LCvenda_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LCdepartamento">
+      <EntityTypeMapping TypeName="LojaCisaModel.LCdepartamento">
+        <MappingFragment StoreEntitySet="LCdepartamento">
+          <ScalarProperty Name="I_Salario" ColumnName="I_Salario" />
+          <ScalarProperty Name="C_Carteira" ColumnName="C_Carteira" />
+          <ScalarProperty Name="C_Cargo" ColumnName="C_Cargo" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LCdevolucao">
+      <EntityTypeMapping TypeName="LojaCisaModel.LCdevolucao">
+        <MappingFragment StoreEntitySet="LCdevolucao">
+          <ScalarProperty Name="LCvendedor_id" ColumnName="LCvendedor_id" />
+          <ScalarProperty Name="LCvenda_id" ColumnName="LCvenda_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LCendereco">
+      <EntityTypeMapping TypeName="LojaCisaModel.LCendereco">
+        <MappingFragment StoreEntitySet="LCendereco">
+          <ScalarProperty Name="C_Cep" ColumnName="C_Cep" />
+          <ScalarProperty Name="C_Estado" ColumnName="C_Estado" />
+          <ScalarProperty Name="C_Cidade" ColumnName="C_Cidade" />
+          <ScalarProperty Name="C_Bairro" ColumnName="C_Bairro" />
+          <ScalarProperty Name="C_Numero" ColumnName="C_Numero" />
+          <ScalarProperty Name="C_Endereco" ColumnName="C_Endereco" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LCestoque">
+      <EntityTypeMapping TypeName="LojaCisaModel.LCestoque">
+        <MappingFragment StoreEntitySet="LCestoque">
+          <ScalarProperty Name="LCproduto_id" ColumnName="LCproduto_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LCfincanceiro">
+      <EntityTypeMapping TypeName="LojaCisaModel.LCfincanceiro">
+        <MappingFragment StoreEntitySet="LCfincanceiro">
+          <ScalarProperty Name="I_LucroLiq" ColumnName="I_LucroLiq" />
+          <ScalarProperty Name="I_LucroBru" ColumnName="I_LucroBru" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LCfornecedor">
+      <EntityTypeMapping TypeName="LojaCisaModel.LCfornecedor">
+        <MappingFragment StoreEntitySet="LCfornecedor">
+          <ScalarProperty Name="LCfuncionario_id" ColumnName="LCfuncionario_id" />
+          <ScalarProperty Name="C_Marca" ColumnName="C_Marca" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LCfuncionario">
+      <EntityTypeMapping TypeName="LojaCisaModel.LCfuncionario">
+        <MappingFragment StoreEntitySet="LCfuncionario">
+          <ScalarProperty Name="LCsistema_id" ColumnName="LCsistema_id" />
+          <ScalarProperty Name="LCdepartamento_id" ColumnName="LCdepartamento_id" />
+          <ScalarProperty Name="LCendereco_id" ColumnName="LCendereco_id" />
+          <ScalarProperty Name="C_Email" ColumnName="C_Email" />
+          <ScalarProperty Name="C_Celular" ColumnName="C_Celular" />
+          <ScalarProperty Name="C_Telefone" ColumnName="C_Telefone" />
+          <ScalarProperty Name="D_DataNasc" ColumnName="D_DataNasc" />
+          <ScalarProperty Name="C_Sexo" ColumnName="C_Sexo" />
+          <ScalarProperty Name="C_Cnpj" ColumnName="C_Cnpj" />
+          <ScalarProperty Name="C_Cpf" ColumnName="C_Cpf" />
+          <ScalarProperty Name="C_Nome" ColumnName="C_Nome" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LCproduto">
+      <EntityTypeMapping TypeName="LojaCisaModel.LCproduto">
+        <MappingFragment StoreEntitySet="LCproduto">
+          <ScalarProperty Name="LCfornecedor_id" ColumnName="LCfornecedor_id" />
+          <ScalarProperty Name="I_Valor" ColumnName="I_Valor" />
+          <ScalarProperty Name="I_Quantidade" ColumnName="I_Quantidade" />
+          <ScalarProperty Name="C_Cor" ColumnName="C_Cor" />
+          <ScalarProperty Name="C_Tamanho" ColumnName="C_Tamanho" />
+          <ScalarProperty Name="C_Descricao" ColumnName="C_Descricao" />
+          <ScalarProperty Name="I_CodBarra" ColumnName="I_CodBarra" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LCsistema">
+      <EntityTypeMapping TypeName="LojaCisaModel.LCsistema">
+        <MappingFragment StoreEntitySet="LCsistema">
+          <ScalarProperty Name="L_Bloqueado" ColumnName="L_Bloqueado" />
+          <ScalarProperty Name="C_Senha" ColumnName="C_Senha" />
+          <ScalarProperty Name="C_Login" ColumnName="C_Login" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LCvenda">
+      <EntityTypeMapping TypeName="LojaCisaModel.LCvenda">
+        <MappingFragment StoreEntitySet="LCvenda">
+          <ScalarProperty Name="Quantidade" ColumnName="Quantidade" />
+          <ScalarProperty Name="LCvendedor_id" ColumnName="LCvendedor_id" />
+          <ScalarProperty Name="LCcliente_id" ColumnName="LCcliente_id" />
+          <ScalarProperty Name="LCproduto_id" ColumnName="LCproduto_id" />
+          <ScalarProperty Name="D_datVenda" ColumnName="D_datVenda" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LCvendedor">
+      <EntityTypeMapping TypeName="LojaCisaModel.LCvendedor">
+        <MappingFragment StoreEntitySet="LCvendedor">
+          <ScalarProperty Name="LCfuncionario_id" ColumnName="LCfuncionario_id" />
+          <ScalarProperty Name="I_Comissao" ColumnName="I_Comissao" />
+          <ScalarProperty Name="I_Bonificacao" ColumnName="I_Bonificacao" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LCcliente">
+      <EntityTypeMapping TypeName="LojaCisaModel.LCcliente">
+        <MappingFragment StoreEntitySet="LCcliente">
+          <ScalarProperty Name="I_CodigoDaCompra" ColumnName="I_CodigoDaCompra" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

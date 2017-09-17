@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LojaCisaModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="LCcliente">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="I_CodigoDaCompra" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LCcomprovante">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LCvenda_id" Type="smallint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LCdepartamento">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="C_Cargo" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="C_Carteira" Type="varchar" MaxLength="20" />
+    <Property Name="I_Salario" Type="double" />
+  </EntityType>
+  <EntityType Name="LCdevolucao">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LCvenda_id" Type="smallint" Nullable="false" />
+    <Property Name="LCvendedor_id" Type="smallint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LCendereco">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="C_Endereco" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="C_Numero" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="C_Bairro" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="C_Cidade" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="C_Estado" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="C_Cep" Type="varchar" MaxLength="15" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LCestoque">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LCproduto_id" Type="smallint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LCfincanceiro">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="I_LucroBru" Type="double" />
+    <Property Name="I_LucroLiq" Type="double" />
+  </EntityType>
+  <EntityType Name="LCfornecedor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="C_Marca" Type="varchar" MaxLength="50" />
+    <Property Name="LCfuncionario_id" Type="smallint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LCfuncionario">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="C_Nome" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="C_Cpf" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="C_Cnpj" Type="varchar" MaxLength="20" />
+    <Property Name="C_Sexo" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="D_DataNasc" Type="date" Nullable="false" />
+    <Property Name="C_Telefone" Type="varchar" MaxLength="15" />
+    <Property Name="C_Celular" Type="varchar" MaxLength="15" />
+    <Property Name="C_Email" Type="varchar" MaxLength="50" />
+    <Property Name="LCendereco_id" Type="smallint" Nullable="false" />
+    <Property Name="LCdepartamento_id" Type="smallint" Nullable="false" />
+    <Property Name="LCsistema_id" Type="smallint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LCproduto">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="I_CodBarra" Type="int" Nullable="false" />
+    <Property Name="C_Descricao" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="C_Tamanho" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="C_Cor" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="I_Quantidade" Type="int" Nullable="false" />
+    <Property Name="I_Valor" Type="double" Nullable="false" />
+    <Property Name="LCfornecedor_id" Type="smallint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LCsistema">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="C_Login" Type="varchar" MaxLength="10" />
+    <Property Name="C_Senha" Type="varchar" MaxLength="50" />
+    <Property Name="L_Bloqueado" Type="int" />
+  </EntityType>
+  <EntityType Name="LCvenda">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="D_datVenda" Type="datetime" Precision="0" Nullable="false" />
+    <Property Name="Quantidade" Type="int" Nullable="false" />
+    <Property Name="LCproduto_id" Type="smallint" Nullable="false" />
+    <Property Name="LCcliente_id" Type="smallint" Nullable="false" />
+    <Property Name="LCvendedor_id" Type="smallint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LCvendedor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="I_Bonificacao" Type="double" Nullable="false" />
+    <Property Name="I_Comissao" Type="double" />
+    <Property Name="LCfuncionario_id" Type="smallint" Nullable="false" />
+  </EntityType>
+  <Association Name="fk_LCcomprovante_LCvenda1">
+    <End Role="LCvenda" Type="Self.LCvenda" Multiplicity="1" />
+    <End Role="LCcomprovante" Type="Self.LCcomprovante" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LCvenda">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="LCcomprovante">
+        <PropertyRef Name="LCvenda_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_LCfuncionario_LCdepartamento1">
+    <End Role="LCdepartamento" Type="Self.LCdepartamento" Multiplicity="1" />
+    <End Role="LCfuncionario" Type="Self.LCfuncionario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LCdepartamento">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="LCfuncionario">
+        <PropertyRef Name="LCdepartamento_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_LCfuncionario_LCendereco1">
+    <End Role="LCendereco" Type="Self.LCendereco" Multiplicity="1" />
+    <End Role="LCfuncionario" Type="Self.LCfuncionario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LCendereco">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="LCfuncionario">
+        <PropertyRef Name="LCendereco_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_LCfuncionario_LCsistema1">
+    <End Role="LCsistema" Type="Self.LCsistema" Multiplicity="1" />
+    <End Role="LCfuncionario" Type="Self.LCfuncionario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LCsistema">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="LCfuncionario">
+        <PropertyRef Name="LCsistema_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="LCdevolucao_ibfk_1">
+    <End Role="LCvenda" Type="Self.LCvenda" Multiplicity="1" />
+    <End Role="LCdevolucao" Type="Self.LCdevolucao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LCvenda">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="LCdevolucao">
+        <PropertyRef Name="LCvenda_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="LCdevolucao_ibfk_2">
+    <End Role="LCvendedor" Type="Self.LCvendedor" Multiplicity="1" />
+    <End Role="LCdevolucao" Type="Self.LCdevolucao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LCvendedor">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="LCdevolucao">
+        <PropertyRef Name="LCvendedor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="LCestoque_ibfk_1">
+    <End Role="LCproduto" Type="Self.LCproduto" Multiplicity="1" />
+    <End Role="LCestoque" Type="Self.LCestoque" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LCproduto">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="LCestoque">
+        <PropertyRef Name="LCproduto_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="LCfornecedor_ibfk_1">
+    <End Role="LCfuncionario" Type="Self.LCfuncionario" Multiplicity="1" />
+    <End Role="LCfornecedor" Type="Self.LCfornecedor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LCfuncionario">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="LCfornecedor">
+        <PropertyRef Name="LCfuncionario_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="LCproduto_ibfk_1">
+    <End Role="LCfornecedor" Type="Self.LCfornecedor" Multiplicity="1" />
+    <End Role="LCproduto" Type="Self.LCproduto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LCfornecedor">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="LCproduto">
+        <PropertyRef Name="LCfornecedor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="LCvenda_ibfk_1">
+    <End Role="LCproduto" Type="Self.LCproduto" Multiplicity="1" />
+    <End Role="LCvenda" Type="Self.LCvenda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LCproduto">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="LCvenda">
+        <PropertyRef Name="LCproduto_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="LCvenda_ibfk_2">
+    <End Role="LCcliente" Type="Self.LCcliente" Multiplicity="1" />
+    <End Role="LCvenda" Type="Self.LCvenda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LCcliente">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="LCvenda">
+        <PropertyRef Name="LCcliente_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="LCvenda_ibfk_3">
+    <End Role="LCvendedor" Type="Self.LCvendedor" Multiplicity="1" />
+    <End Role="LCvenda" Type="Self.LCvenda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LCvendedor">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="LCvenda">
+        <PropertyRef Name="LCvendedor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="LCvendedor_ibfk_1">
+    <End Role="LCfuncionario" Type="Self.LCfuncionario" Multiplicity="1" />
+    <End Role="LCvendedor" Type="Self.LCvendedor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LCfuncionario">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="LCvendedor">
+        <PropertyRef Name="LCfuncionario_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LojaCisaModelStoreContainer">
+    <EntitySet Name="LCcliente" EntityType="Self.LCcliente" Schema="LojaCisa" store:Type="Tables" />
+    <EntitySet Name="LCcomprovante" EntityType="Self.LCcomprovante" Schema="LojaCisa" store:Type="Tables" />
+    <EntitySet Name="LCdepartamento" EntityType="Self.LCdepartamento" Schema="LojaCisa" store:Type="Tables" />
+    <EntitySet Name="LCdevolucao" EntityType="Self.LCdevolucao" Schema="LojaCisa" store:Type="Tables" />
+    <EntitySet Name="LCendereco" EntityType="Self.LCendereco" Schema="LojaCisa" store:Type="Tables" />
+    <EntitySet Name="LCestoque" EntityType="Self.LCestoque" Schema="LojaCisa" store:Type="Tables" />
+    <EntitySet Name="LCfincanceiro" EntityType="Self.LCfincanceiro" Schema="LojaCisa" store:Type="Tables" />
+    <EntitySet Name="LCfornecedor" EntityType="Self.LCfornecedor" Schema="LojaCisa" store:Type="Tables" />
+    <EntitySet Name="LCfuncionario" EntityType="Self.LCfuncionario" Schema="LojaCisa" store:Type="Tables" />
+    <EntitySet Name="LCproduto" EntityType="Self.LCproduto" Schema="LojaCisa" store:Type="Tables" />
+    <EntitySet Name="LCsistema" EntityType="Self.LCsistema" Schema="LojaCisa" store:Type="Tables" />
+    <EntitySet Name="LCvenda" EntityType="Self.LCvenda" Schema="LojaCisa" store:Type="Tables" />
+    <EntitySet Name="LCvendedor" EntityType="Self.LCvendedor" Schema="LojaCisa" store:Type="Tables" />
+    <AssociationSet Name="fk_LCcomprovante_LCvenda1" Association="Self.fk_LCcomprovante_LCvenda1">
+      <End Role="LCvenda" EntitySet="LCvenda" />
+      <End Role="LCcomprovante" EntitySet="LCcomprovante" />
+    </AssociationSet>
+    <AssociationSet Name="fk_LCfuncionario_LCdepartamento1" Association="Self.fk_LCfuncionario_LCdepartamento1">
+      <End Role="LCdepartamento" EntitySet="LCdepartamento" />
+      <End Role="LCfuncionario" EntitySet="LCfuncionario" />
+    </AssociationSet>
+    <AssociationSet Name="fk_LCfuncionario_LCendereco1" Association="Self.fk_LCfuncionario_LCendereco1">
+      <End Role="LCendereco" EntitySet="LCendereco" />
+      <End Role="LCfuncionario" EntitySet="LCfuncionario" />
+    </AssociationSet>
+    <AssociationSet Name="fk_LCfuncionario_LCsistema1" Association="Self.fk_LCfuncionario_LCsistema1">
+      <End Role="LCsistema" EntitySet="LCsistema" />
+      <End Role="LCfuncionario" EntitySet="LCfuncionario" />
+    </AssociationSet>
+    <AssociationSet Name="LCdevolucao_ibfk_1" Association="Self.LCdevolucao_ibfk_1">
+      <End Role="LCvenda" EntitySet="LCvenda" />
+      <End Role="LCdevolucao" EntitySet="LCdevolucao" />
+    </AssociationSet>
+    <AssociationSet Name="LCdevolucao_ibfk_2" Association="Self.LCdevolucao_ibfk_2">
+      <End Role="LCvendedor" EntitySet="LCvendedor" />
+      <End Role="LCdevolucao" EntitySet="LCdevolucao" />
+    </AssociationSet>
+    <AssociationSet Name="LCestoque_ibfk_1" Association="Self.LCestoque_ibfk_1">
+      <End Role="LCproduto" EntitySet="LCproduto" />
+      <End Role="LCestoque" EntitySet="LCestoque" />
+    </AssociationSet>
+    <AssociationSet Name="LCfornecedor_ibfk_1" Association="Self.LCfornecedor_ibfk_1">
+      <End Role="LCfuncionario" EntitySet="LCfuncionario" />
+      <End Role="LCfornecedor" EntitySet="LCfornecedor" />
+    </AssociationSet>
+    <AssociationSet Name="LCproduto_ibfk_1" Association="Self.LCproduto_ibfk_1">
+      <End Role="LCfornecedor" EntitySet="LCfornecedor" />
+      <End Role="LCproduto" EntitySet="LCproduto" />
+    </AssociationSet>
+    <AssociationSet Name="LCvenda_ibfk_1" Association="Self.LCvenda_ibfk_1">
+      <End Role="LCproduto" EntitySet="LCproduto" />
+      <End Role="LCvenda" EntitySet="LCvenda" />
+    </AssociationSet>
+    <AssociationSet Name="LCvenda_ibfk_2" Association="Self.LCvenda_ibfk_2">
+      <End Role="LCcliente" EntitySet="LCcliente" />
+      <End Role="LCvenda" EntitySet="LCvenda" />
+    </AssociationSet>
+    <AssociationSet Name="LCvenda_ibfk_3" Association="Self.LCvenda_ibfk_3">
+      <End Role="LCvendedor" EntitySet="LCvendedor" />
+      <End Role="LCvenda" EntitySet="LCvenda" />
+    </AssociationSet>
+    <AssociationSet Name="LCvendedor_ibfk_1" Association="Self.LCvendedor_ibfk_1">
+      <End Role="LCfuncionario" EntitySet="LCfuncionario" />
+      <End Role="LCvendedor" EntitySet="LCvendedor" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

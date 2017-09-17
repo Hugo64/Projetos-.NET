@@ -1,0 +1,515 @@
+﻿@model IEnumerable<LCisa.App_Data.LCvendedor>
+@{
+    ViewBag.Title = "Sistema";
+}
+
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8"/>
+    <title>Sistema</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/Css/login-funcionario.css" />
+    <link rel="icon" type="image/png" href="~/Content/Imagens/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="~/Content/Imagens/favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" type="text/css" href="~/Content/Css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/Css/bootstrap-theme.min.css" />
+    <script type="text/javascript" src="~/Scripts/Js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/Js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/Js/qrcode.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/Js/qrcode.js"></script>
+    <script type="text/javascript" src="~/Scripts/Js/jquery.maskedinput-1.1.4.pack.js"></script>
+    <script type="text/javascript" src="~/Scripts/Js/login-funcionario.js"></script>
+    <script type="text/javascript" src="~/Scripts/Js/index.js"></script>
+</head>
+<body id="body">
+
+    <div class="container">
+        <h2 id="logo">Cisa System</h2>
+        <ul class="nav nav-tabs">
+            <li>
+                <a data-toggle="tab" href="#home" id="home-1">Caixa</a>
+            </li>
+            <li class="active">
+                <a data-toggle="tab" href="#menu1" id="menu1-1">Vendedor</a>
+            </li>
+            <li>
+                <a data-toggle="tab" href="#menu2" id="menu2-1">Recursos Humanos</a>
+            </li>
+            <li>
+                <a data-toggle="tab" href="#menu3" id="menu3-1">Apontador</a>
+            </li>
+            <li>
+                <a data-toggle="tab" href="#menu4" id="menu4-1">Troca e Devolução</a>
+            </li>
+            <li>
+                <a data-toggle="tab" href="#menu5" id="menu5-1">Cadastrar Fornecedor</a>
+            </li>
+            <li>
+                <a data-toggle="tab" href="#menu6" id="menu6-1">Detalhes do Caixa</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <!-----------------------------------Caixa-------------------------------------->
+            <div id="home" class="tab-pane fade">
+                <br />
+              
+                <form id="formularioCaixa">
+                    <!--FORMULARIO CAIXA-->
+                    <br />
+                    <fieldset id="diminuirLinha"> <!--Usado para diminuir o tamanho da linha do fieldset-->
+                        <legend></legend>
+                        <br />
+                        <label for="codigo">Código:</label>    
+                        <input type="text" name="codigoproduto" class="form-control" id="codigo" />
+                        <div>
+                            <button type="button" id="exibircompras" class="btn btn-primary">Exibir Compras</button>
+                        </div>
+                        <br />
+                        <!--_______________________________________________________________________________________-->
+                        <div id="tblExibir">
+                            @*@foreach (var item in Model)
+                            {
+                                    <label for="codigo">Codigo:</label>
+                                    <input type="text" name="codigotroca" class="form-control" id="codExibir" />
+                                    <br />
+                                    <label for="descricao">Descrição:</label>
+                                    <input type="text" name="descricaotroca" class="form-control" id="descricaoExibir" />
+                                    <br />
+                              <div class="form-inline" role="form">
+                                <div class="form-group">
+                                    <label for="quatidade">Quantidade:</label>
+                                    <input type="text" name="quantidadetroca" class="form-control" id="quantidadeExibir" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="valor">Valor:</label>
+                                    <input type="text" name="valortroca" class="form-control" id="valorExibir" />
+                                </div>
+                                <button type="button" class="btn btn-primary" id="devolver">Excluir</button>
+                            </div>
+                            }*@
+                            
+                        </div>
+                        <!--_______________________________________________________________________________________-->
+                            </fieldset>
+                        </form>
+
+                        <br />
+                        <br />
+                        <br />
+                        <div class="checkbox" id="formapagamentos">
+                            <label>
+                                <input type="checkbox" />Dinheiro
+                            </label>
+                            <label>
+                                <input type="checkbox" />Cheque
+                            </label>
+                            <label>
+                                <input type="checkbox" />Cartão de Crédito
+                            </label>
+                            <label>
+                                <input type="checkbox" />Cartão de Debito
+                            </label>
+                        </div>
+                        <br />
+                        <br />
+                    <br />
+                    <button type="submit" id="btcaixa" class="btn btn-primary">Registrar Venda</button>
+                
+                <div id="fecharcaixa">
+                    <form>
+                        <!-- INICIO DO FORMULARIO DE FECHAMNETO DO CAIXA -->
+                        <fieldset>
+                            <br />
+                            <legend>Fechamento do Caixa</legend>
+                            <br />
+                            Informe o saldo final que você possui em caixa: <input type="number" name="saldocaixa" class="form-control" id="saldocaixa" required />
+                            <br />
+                            Saldo final totalizado pelo sistema: <input type="number" name="saldosistema" class="form-control" id="saldosistema" disabled="disabled" />
+                            <br />
+                            Quebra de caixa. Está faltando: <input type="number" name="faltando" class="form-control" id="faltando" disabled="disabled" />
+                            <br />
+                            <div class="form-group">
+                                Observações: <textarea class="form-control" rows="3" id="observacao" placeholder="Caso tenha alguma observação sobre o fechamento do seu caixa. Relate aqui ..."></textarea>
+                            </div>
+                        </fieldset>
+                        <button type="submit" name="fecharcaixa" class="btn btn-primary" id="fechaCaixa">>>Fechar Caixa<<</button>
+                        <br />
+                        <button type="submit" name="cancelar" id="cancelarF" class="btn btn-primary">Cancelar</button>
+                    </form> <!--FIM DO FORMULARIO DO FECHAMENTO DO CAIXA-->
+                </div>
+
+            </div>
+
+            <!-- Inicio detalhes do caixa-->
+            <div id="menu6" class="tab-pane fade">
+                <form id="detalhes">
+                    <fieldset>
+                        <legend></legend>
+                        <br />
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Código</th> <!--Menu da tabela-->
+                                    <th>Data</th>
+                                    <th>Hora</th>
+                                    <th>Tipo</th>
+                                    <th>Descrição</th>
+                                    <th>Cliente</th>
+                                    <th>Valor</th>
+                                    <th>Desconto</th>
+                                    <th>Valor Total</th>
+                                    <th>Valor Pago</th>
+                                    <th>Forma de Pagamento</th>
+                                    <th>Vendedor</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>0001</td> <!--Valores da tabela-->
+                                    <td>25/12/15</td>
+                                    <td>17:20:12</td>
+                                    <td>Tênis</td>
+                                    <td>Tenis vermelho</td>
+                                    <td>Pedro</td>
+                                    <td>R$ 50,00</td>
+                                    <td>R$ 5,00</td>
+                                    <td>R$ 45,00</td>
+                                    <td>R$ 45,00</td>
+                                    <td>Dinheiro</td>
+                                    <td>Lucas</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </fieldset>
+                </form>
+            </div> <!-- Fim detalhes do caixa-->
+            <!--_________________________________________________________________________-->
+            <!-------------------------------VENDEDOR-------------------------------------->
+
+            <div id="menu1" class="tab-pane active">
+
+                <!--CODIGO FEITO PELO HUGO-->
+
+                <!-------------------------------Cadastro de produto na Lista(array)------------------>
+                <br />
+                    <form class="form-inline" role="form" method="post" action="~/Sistema/AdicionarCompra">
+                        <br />
+                        <div class="form-group">
+                            <label>Codigo do produto:</label>
+                            <input name="codBarra" type="number" required class="form-control" id="codigoBarras" />
+                        </div>
+                        <div class="form-group">
+                            <label>Quantidade comprado:</label>
+                            <input name="Quantidade" type="number" required class="form-control" id="qtdComprado" />
+                        </div>
+                        <button type="submit" class="btn btn-primary">Cadastrar</button>
+                        <br />
+                        <br />
+                    </form>
+                <form class="form-inline" role="form">
+                    @for (int i = 0; i < LCisa.Models.Carrinho.carrinhoProdutos.Count; i++)
+                    {
+                        <div class="form-group">
+                            <label for="codigo" class="form-control" id="codigoproduto">Codigo: @Html.DisplayFor(x => LCisa.Models.Carrinho.carrinhoProdutos[i].codBarra)</label>
+                        </div>
+                        <div class="form-group">
+                            <label for="descricao" class="form-control" id="descricao">Descrição: @Html.DisplayFor(x => LCisa.Models.Carrinho.carrinhoProdutos[i].Descricao)</label>
+                        </div>
+                        <div class="form-group">
+                        <label for="valorproduto" class="form-control" id="valorproduto">Valor do produto: @Html.DisplayFor(x => LCisa.Models.Carrinho.carrinhoProdutos[i].Valor)</label>
+                        </div>
+                        <div class="form-group">
+                        <label for="quantidade" class="form-control" id="quantidadecomprada">Quantidade comprado: @Html.DisplayFor(x => LCisa.Models.Carrinho.carrinhoProdutos[i].Quantidade)</label>
+                        </div>
+                        <button type="button" class="btn btn-primary">@Html.ActionLink("Excluir", "ExcluirCompra", new { Id = LCisa.Models.Carrinho.carrinhoProdutos[i].Id })</button>
+                    }
+                       <div class="form-group">
+                        <label for="valortotalcompra" class="form-control" id="valortotalcompra">Valor total da compra: @LCisa.Models.Carrinho.Total</label>
+                      </div>
+                </form>
+                <form method="post" action="~/Sistema/finalizaCompra" class="form-inline" role="form">
+                    <br />
+                    <div class="form-group">
+                        <label for="codigovenda">Codigo da venda: (EXEMPLO!)</label>
+                        <input name="codigoDaCompra" type="number" required class="form-control" id="codigovenda" />
+                    </div>
+                    <button  type ="submit" class="btn btn-primary" id="finalizacompra">Finalizar compra</button>
+                    <br />
+
+                        <input type="button" class="btn btn-primary" id="btImprimir" name="imprimir" value="Imprimir Boleto" onclick="window.print();">
+
+                </form>
+                <!-------------------------------Fim Cadastro de produto na Lista(array)------------------>
+
+            </div>
+
+            <!--_________________________________________________________________________-->
+            <!-------------------------RECURSOS HUMANOS------------------------------------>
+            <div id="menu2" class="tab-pane fade">
+                <div id="form-rh">
+                    <!--Botões de adicionar e listar os funcionários-->
+                    <br>
+                    <button href="#" type="submit" id="list-func" class="btn btn-primary">Listar Funcionários </button>
+                    <br>
+                    <br>
+                    <!--___________________________Listar Funcionarios___________________________ -->
+
+                    <form id="listarFuncionarios">
+                       @*@foreach (var item in Model)
+                    {
+                    <br />
+                    <label>@Html.DisplayFor(x => item.LCfuncionario.C_Nome)</label>
+                    <button type="button" class="btn btn-primary">@Html.ActionLink("Exibir", "ExibiFuncionario", new { Id = item.id })</button>
+                    <button type="button" class="btn btn-primary">@Html.ActionLink("Editar", " ", new { Id = item.id })</button>
+                    <button type="button" class="btn btn-primary">@Html.ActionLink("Excluir", " ", new { Id = item.id })</button>
+                    <br />
+                    }*@
+   
+            </form>
+            <!-- __________________________FIM listar Funcionarios_______________________ -->
+            <!--FORMULÁRIO RH -->
+            <form id="formulario-rh" method="post" action="~/Sistema/AdicionaFuncionario">
+                <fieldset>
+                    <br>
+                    <legend>Informações Pessoais</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="C_Nome" class="form-control" id="nomeRh" required="" />
+                    <br>
+                    <label for="cpf">CPF:</label>
+                    <input type="text" name="C_Cpf" class="form-control" id="cpf" required="" />
+                    <br>
+                    <label for="cnpj">CNPJ:</label>
+                    <input type="text" name="C_Cnpj" class="form-control" id="cnpj" />
+                    <br>
+                    <label for="sexo">Sexo</label>
+                    <br>
+                    <input type="radio" name="C_Sexo" value="M" checked>M
+                    <br>
+                    <input type="radio" name="C_Sexo" value="F">F
+                    <br>
+                    <br>
+                    <label for="data-nasc">Data de Nascimento:</label>
+                    <input type="date" name="D_DataNasc" class="form-control" id="data-nasc" required="" />
+                    <br>
+                    <label for="tel-fix">Telefone Fixo:</label>
+                    <input type="text" name="C_Telefone" class="form-control" id="tel-fix" required="" />
+                    <br>
+                    <label for="celular">Celular:</label>
+                    <input type="text" name="C_Celular" class="form-control" id="celular" required="" />
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" name="C_Email" id="emai"/>
+                    <br />
+                </fieldset>
+                <br>
+                <br>
+                <fieldset>
+                    <legend>Endereço</legend>
+                    <br>
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" name="C_Endereco" maxlength="50" class="form-control" id="endereco" required="" />
+                    <br>
+                    <label for="numero">Numero:</label>
+                    <input type="number" name="C_Numero" class="form-control" id="numero" required="" />
+                    <br>
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" name="C_Bairro" class="form-control" id="bairro" required="" />
+                    <br>
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" name="C_Cidade" class="form-control" id="cidade" required="" />
+                    <br>
+                    <label for="estado">Estado:</label>
+                    <input type="text" name="C_Estado" class="form-control" id="estado" required="" />
+                    <br>
+                    <label for="cep">CEP:</label>
+                    <input type="text" name="C_Cep" class="form-control" id="cep" required="" />
+                    <br>
+                </fieldset>
+                <br>
+                <br>
+                <fieldset>
+                    <legend>Departamento</legend>
+                    <label for="carteira">Nº Carteira:</label>
+                    <input type="text" name="C_Carteira" class="form-control" id="carteira" required="" />
+                    <br>
+                    <label for="salario">Salario:</label>
+                    <input type="number" name="I_Salario" class="form-control" id="salario" required="" />
+                    <br>
+                </fieldset>
+                <br>
+                <br>
+                <fieldset>
+                    <legend>Sistema</legend>
+                    <label for="cargo">Codigo de Login</label>
+                    <input type="text" name="C_Login" class="form-control" id="login" required="" />
+                    <br>
+                    <label for="carteira">Senha:</label>
+                    <input type="text" name="C_Senha" class="form-control" id="senha" required="" />
+                    <br>
+                </fieldset>
+                <br>
+                <br>
+                <fieldset name="fiel">
+                    <legend>Cargo</legend>
+                    <label for="sel1">Selecione o Cargo:</label>
+                    <select name="C_Cargo" onchange="if (this.options.selectedIndex != 0) { this.fiel.I_Bonificacao.disabled = 'disabled';}" class="form-control" id="sel1">
+                        <option value="CargoVendedor">Vendedor</option>
+                        <option value="CargoCaixa">Caixa</option>
+                        <option value="CargoRh">RH</option>
+                        <option value="CargoEstoquista">Estoquista</option>
+                    </select>
+                    <br />
+                    <label for="cargo">Bonificação</label>
+                    <input type="number" name="I_Bonificacao" class="form-control" id="bonificacao" required="" />
+                    <br />
+                    <br />
+                </fieldset>
+                <br />
+                <button type="submit" id="salvarInf" class="btn btn-primary">Salvar Informações</button>
+                <br>
+            </form>
+        </div>
+    </div>
+    <!--_________________________________________________________________________-->
+    <!-------------------------APONTADOR------------------------------------------->
+    <div id="menu3" class="tab-pane fade">
+        <div id="form">
+            <br />
+            <br />
+            <form id="form-apontador" method="post" action="~/Sistema/AdicionaProduto">
+                <fieldset>
+                    <legend>Adicionar Produtos</legend>
+                    <br />
+                    <label for="cd-prod">Cod. Produto</label>
+                    <input type="number" class="form-control" name="I_CodBarra" id="prod" />
+                    <br />
+                    <label for="desc">Descricao do produto</label>
+                    <input type="text" class="form-control" name="C_Descricao" id="des" />
+                    <br />
+                    <label for="desc">Cor</label>
+                    <input type="text" class="form-control" name="C_Cor" id="cores" />
+                    <br />
+                    <label for="valor">Valor</label>
+                    <input type="number" class="form-control" name="I_Valor" id="vlr" />
+                    <br />
+                    <label for="qtd">Quantidade</label>
+                    <input type="number" class="form-control" name="I_Quantidade" id="qt" />
+                    <br />
+                    <label for="valor">Tamanho</label>
+                    <input type="text" class="form-control" name="C_Tamanho" id="tamanho" />
+                    <br />
+                    <label for="fornec">Fornecedor</label>
+                    @*<select name="LCfornecedor_id" class="form-control" @Html.DropDownList("Fornecedores", String.Empty)</select>*@
+                            <br />
+                            
+                            <button type="submit" id="enviar-formApontador" class="btn btn-primary" >Salvar Informações</button>
+                        </fieldset>
+                    </form>
+                    
+                </div>
+            </div>
+            <!-------------------------TROCA E DEVOLUÇÃO ------------------------>
+            <div id="menu4" class="tab-pane fade">
+                <div>
+                    <br />
+                    <br />
+                        <fieldset>
+                            <legend>Trocar / Devolver Produtos</legend>
+                            <br />
+                            <label for="codigo">Código:</label>   
+                            <input type="text" name="codigoproduto" class="form-control" id="codigo" />
+                            <div>
+                                <button type="button" id="exibirtroca" class="btn btn-primary">Exibir Produtos</button>
+                            </div>
+                            
+                            <br />
+                        </fieldset>
+                </div>
+                <form id="trocarDevolver" class="form-inline" role="form"> 
+                
+                    <div class="form-group">
+                        Codigo: <input type="text" name="codigotroca" id="codigotroca" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        Descrição: <input type="text" name="descricaotroca" id="descricaotroca" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        Quantidade: <input type="text" name="quantidadetroca" id="quantidadetroca" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        Valor: <input type="text" name="valortroca" id="valortroca" class="form-control" />
+                    </div>
+                    <button type="button" class="btn btn-primary" id="devolver">Excluir</button>
+                    
+                </form>
+            </div>
+            <!-- _________________________final do troca e devolução___________________________________________-->
+
+            <!--______________________________CADASTRO DE FORNECEDOR___________________________________________-->
+            <div id="menu5" class="tab-pane fade">
+                <div id="cadFornecedor">
+                    <br />
+                    <br />
+                    <form id="cadforn" method="post" action="~/Sistema/AdicionaFornecedor">
+                        <fieldset>
+                            <legend>Cadastrar Fornecedor</legend>
+                            <br />
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" name="C_Nome" id="nome" required="" />
+                            <br />
+                            <label for="dt">Data de Nasc.</label>
+                            <input type="date" class="form-control" name="D_DataNasc" id="dt" required="" />
+                            <br />
+                            <label for="sexo">Sexo</label>
+                            <br />
+                            <input type="radio" name="C_Sexo" value="M" checked />M
+                            <br />
+                            <input type="radio" name="C_Sexo" value="F" />F
+                            <br />
+                            <label for="tel">Telefone</label>
+                            <input type="text" class="form-control" name="C_Telefone" id="tel" />
+                            <br />
+                            <label for="cel">Celular</label>
+                            <input type="text" class="form-control" name="C_Celular" id="cel" required="" />
+                            <br />
+                            <label for="cnpj">CNPJ</label>
+                            <input type="text" class="form-control" name="C_Cnpj" id="cnpj" required="" />
+                            <br />
+                            <label for="cpf">CPF</label>
+                            <input type="text" class="form-control" name="C_Cpf" id="cpf" />
+                            <br />
+                            <label for="end">Endereço</label>
+                            <input type="text" class="form-control" name="C_Endereco" id="end" required="" />
+                            <br />
+                            <label for="cid">Cidade</label>
+                            <input type="text" class="form-control" name="C_Cidade" id="cid" required="" />
+                            <br />
+                            <label for="bairro">Bairro</label>
+                            <input type="text" class="form-control" name="C_Bairro" id="bairro" required="" />
+                            <br />
+                            <label for="bairro">Numero</label>
+                            <input type="number" class="form-control" name="C_Numero" id="num" required="" />
+                            <br />
+                            <label for="uf">UF</label>
+                            <input type="text" class="form-control" name="C_Estado" id="uf" required="" />
+                            <br />
+                            <label for="cep">CEP</label>
+                            <input type="text" class="form-control" name="C_Cep" id="cep" required="" />
+                            <br />
+                            <label for="email">E-MAIL</label>
+                            <input type="email" class="form-control" name="C_Email" id="emai" required="" />
+                            <br />
+                            <label for="cd">Marca</label>
+                            <input type="text" class="form-control" name="C_Marca" id="cdf" required="" />
+                            <br />
+                            <br />
+                            <button type="submit" id="salvar" class="btn btn-primary">Salvar Informações</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <!--________________________final do cadastro de fornecedor_________________________________________________-->
+           
+        </div>
+    </div>
+</body>
+</html>

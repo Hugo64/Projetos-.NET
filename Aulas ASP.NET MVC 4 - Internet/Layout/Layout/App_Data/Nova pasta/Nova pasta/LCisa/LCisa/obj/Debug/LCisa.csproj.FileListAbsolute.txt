@@ -1,0 +1,390 @@
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\LCisa.dll.config
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\LCisa.dll
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\LCisa.pdb
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\Newtonsoft.Json.dll
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\System.Net.Http.Formatting.dll
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\System.Web.Helpers.dll
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\System.Web.Http.dll
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\System.Web.Http.WebHost.dll
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\System.Web.Mvc.dll
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\System.Web.Razor.dll
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\System.Web.WebPages.dll
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\System.Web.WebPages.Razor.dll
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\Newtonsoft.Json.xml
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\System.Net.Http.Formatting.xml
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\System.Web.Helpers.xml
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\System.Web.Http.xml
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\System.Web.Http.WebHost.xml
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\System.Web.Mvc.xml
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\System.Web.Razor.xml
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\System.Web.WebPages.xml
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\System.Web.WebPages.Razor.xml
+C:\Users\Anonymou\Documents\LCisa\LCisa\obj\Debug\LCisa.csprojResolveAssemblyReference.cache
+C:\Users\Anonymou\Documents\LCisa\LCisa\obj\Debug\LCisa.dll
+C:\Users\Anonymou\Documents\LCisa\LCisa\obj\Debug\LCisa.pdb
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\EntityFramework.dll
+C:\Users\Anonymou\Documents\LCisa\LCisa\bin\EntityFramework.xml
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll.config
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.pdb
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.dll
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.dll
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.dll
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.dll
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.dll
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.dll
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.dll
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.dll
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.dll
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.dll
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.xml
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.xml
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.xml
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.xml
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.xml
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.xml
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.xml
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.xml
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.xml
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.xml
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.csprojResolveAssemblyReference.cache
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.dll
+C:\Users\Anonymou\Documents\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.pdb
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll.config
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.pdb
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.dll
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.dll
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.dll
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.dll
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.dll
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.dll
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.dll
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.dll
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.dll
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.dll
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.dll
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.xml
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.xml
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.xml
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.xml
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.xml
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.xml
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.xml
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.xml
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.xml
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.xml
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.xml
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.csprojResolveAssemblyReference.cache
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.dll
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.pdb
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Data.dll
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Web.dll
+C:\Users\AnonymouW\Documents\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Data.Entity.dll
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll.config
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.pdb
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.dll
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Infrastructure.dll
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Data.dll
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Data.Entity.dll
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Web.dll
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.dll
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.dll
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.dll
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.dll
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.dll
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.dll
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.dll
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.dll
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.dll
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.dll
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.xml
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.xml
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.xml
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.xml
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.xml
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.xml
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.xml
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.xml
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.xml
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.xml
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.xml
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.csprojResolveAssemblyReference.cache
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.dll
+\\PC_PARTICULAR\Users\Public\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.pdb
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll.config
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.pdb
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.dll
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Data.dll
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Data.Entity.dll
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Web.dll
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.dll
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.dll
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.dll
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.dll
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.dll
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.dll
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.dll
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.dll
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.dll
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.xml
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.xml
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.xml
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.xml
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.xml
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.xml
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.xml
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.xml
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.xml
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.xml
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.csprojResolveAssemblyReference.cache
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.dll
+C:\Users\Public\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.pdb
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll.config
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.pdb
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.dll
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Infrastructure.dll
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Data.dll
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Data.Entity.dll
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Web.dll
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.dll
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.dll
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.dll
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.dll
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.dll
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.dll
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.dll
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.dll
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.dll
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.dll
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.xml
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.xml
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.xml
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.xml
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.xml
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.xml
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.xml
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.xml
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.xml
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.xml
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.xml
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.csprojResolveAssemblyReference.cache
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.dll
+D:\LCisa\Projeto da Faculdade\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.pdb
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll.config
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.pdb
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Data.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Data.Entity.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Web.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.csprojResolveAssemblyReference.cache
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.pdb
+E:\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.csprojResolveAssemblyReference.cache
+E:\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.dll
+E:\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.pdb
+E:\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll.config
+E:\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll
+E:\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.pdb
+E:\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.dll
+E:\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Infrastructure.dll
+E:\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Data.dll
+E:\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Data.Entity.dll
+E:\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Web.dll
+E:\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.dll
+E:\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.dll
+E:\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.dll
+E:\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.dll
+E:\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.dll
+E:\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.dll
+E:\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.dll
+E:\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.dll
+E:\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.dll
+E:\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.dll
+E:\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.xml
+E:\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.xml
+E:\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.xml
+E:\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.xml
+E:\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.xml
+E:\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.xml
+E:\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.xml
+E:\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.xml
+E:\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.xml
+E:\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.xml
+E:\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll.config
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.pdb
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Data.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Data.Entity.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Web.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.csprojResolveAssemblyReference.cache
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade DropBox\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.pdb
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll.config
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.pdb
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Data.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Data.Entity.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Web.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.xml
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.csprojResolveAssemblyReference.cache
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.dll
+C:\Users\Anonymouw\Documents\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.pdb
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll.config
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.pdb
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Data.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Data.Entity.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Web.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.xml
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.csprojResolveAssemblyReference.cache
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.dll
+C:\Users\leandro\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.pdb
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll.config
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.dll
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\LCisa.pdb
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.dll
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Data.dll
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Data.Entity.dll
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\MySql.Web.dll
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.dll
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.dll
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.dll
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.dll
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.dll
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.dll
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.dll
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.dll
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.dll
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\EntityFramework.xml
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\Newtonsoft.Json.xml
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Net.Http.Formatting.xml
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Helpers.xml
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.xml
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Http.WebHost.xml
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Mvc.xml
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.Razor.xml
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.xml
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\bin\System.Web.WebPages.Razor.xml
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.csprojResolveAssemblyReference.cache
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.dll
+C:\Users\Anonymouw\Dropbox\Desenvolvimento\Projeto Faculdade\Projeto da Faculdade\LCisa\LCisa\obj\Debug\LCisa.pdb

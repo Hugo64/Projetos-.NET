@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" initial-scale="1.0"/>
+    <title>Index</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="~/Content/AlteracoesBootstrap.css" rel="stylesheet" />
+</head>
+<body>    
+    <div class="container">
+    <div class="row">
+    @*
+        col-xs-X  -> Indica qual o comportamente da tela quando alcançar a área como pequena.
+        col-md-X  -> Indica qual o comportamento da tela quando alcançar a área como média.
+        col-lg-X  -> Indica qual o comportamento da tela quando alcançar a área como grande.
+    *@
+        <div style="background: #808080;" class="col-xs-12 col-md-6 col-lg-12">
+        <p>O que é Lorem Ipsum? Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, 
+            e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os 
+            embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também 
+            ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, 
+            quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser 
+            integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+        </div>
+
+        <div style="background: #0094ff;" class="col-xs-12 col-md-6 col-lg-12">
+            <p>
+                O que é Lorem Ipsum? Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
+                e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os
+                embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também
+                ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60,
+                quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser
+                integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            </p>
+        </div>
+    </div>
+        <div style="background: #9d3c4b" class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-sm-12">Partição 1</div>
+                    <div class="col-sm-6">Partição 2</div>
+                    <div class="col-sm-6">Partição 3</div>
+                    <div class="col-sm-6">Partição 4</div>
+                </div>
+            </div>
+        </div>
+    @*
+       col-xs-offset-X -> Ocupar o espaço determinado no X do lado direito obrigado a grid: col-sm-X e afastando de acordo com o valor dado, tipo um margin-left)
+    *@
+        <div style="background: #9c6945" class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <!--Exemplo-->
+                    <div style="background:#ff006e" class="col-xs-12 col-md-offset-12">
+                        <p>
+                            O que é Lorem Ipsum? Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
+                            e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os
+                            embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também
+                            ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60,
+                            quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser
+                            integrado a softwares de editoração eletrônica como Aldus PageMaker.
+                        </p>
+                    </div> 
+                    <!--Exemplo-->
+                    <div class="col-xs-6">Partição 2</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Testando a teg smal <small>Eu sou o smal</small></h1>
+                <p class="lead">Testando a classe lead</p>
+                <p>Testando a tag mmark <mark>eu sou o mark. By</mark></p>
+                <p>Testando a tag del <del>ola, sou o del</del></p>
+                <p>Testando a tag ins <ins>Ola, eu sou o ins</ins></p>
+                <p>Testando o small <small>Olá, sou o small</small></p>
+                <p class="text-muted">Deixando texto sem muita importancia com o text-muted</p>
+                <p class="text-primary">Deixando texto com um destaque azul</p>
+                <p class="text-danger">Exite muitas outras no bootstrap colocando apenas a class e começando com "text-" e dará outras opções de destaques</p>
+                <blockquote>Testando o blockquote <small>Nome: <cite>Hugo Vidal</cite></small></blockquote>
+                <p class="pull-right">Classe pull-right move um texto para o lado direito</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <ul class="list-unstyled">
+                    <li>Utilizando a classe: list-unstyled para tirar os pontos que fica do lado da lista</li>
+                    <li>Item1</li>
+                    <li>Item2</li>
+                    <li>Item3</li>
+                    <li>Item4</li>
+                    <li>Item5</li>
+                </ul>
+
+                <ul class="list-unstyled list-inline">
+                    <li>Utilizando a classe: list-unstyled e list-inline para tirar os pontos que fica do lado da lista e fazer com que as li fica um ao lado da outra</li>
+                    <li>Item1</li>
+                    <li>Item2</li>
+                    <li>Item3</li>
+                    <li>Item4</li>
+                    <li>Item5</li>
+                </ul>
+
+                <dl>
+                    <dt>titulo</dt>
+                    <dd>Textando recursos de noticias bootstrap</dd>
+                </dl>
+
+
+                <dl class="dl-horizontal">
+                    <dt>titulo</dt>
+                    <dd>Agora utilizando a class dl-horizontal para deixar na horizontal</dd>
+                </dl>
+            </div>
+        </div>
+
+        <div class="row">
+            <table class="table table-bordered">
+                <thead>
+                    <tr class="alert-info">
+                        <th>Título</th>
+                        <th>Nome</th>
+                        <th>Idade</th>
+                        <th>Nascimento</th>
+                        <th>Data de Nascimento</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sr.</td>
+                        <td>Hugo Cruz</td>
+                        <td>22</td>
+                        <td>Dezembro</td>
+                        <td>17/12/1994</td>
+                    </tr>
+                    <tr>
+                        <td>Sr.</td>
+                        <td>Hugo Cruz</td>
+                        <td>22</td>
+                        <td>Dezembro</td>
+                        <td>17/12/1994</td>
+                    </tr>
+                    <tr>
+                        <td>Sr.</td>
+                        <td>Hugo Cruz</td>
+                        <td>22</td>
+                        <td>Dezembro</td>
+                        <td>17/12/1994</td>
+                    </tr>
+                    <tr>
+                        <td>Sr.</td>
+                        <td>Hugo Cruz</td>
+                        <td>22</td>
+                        <td>Dezembro</td>
+                        <td>17/12/1994</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="row">
+            <form class="form-group">
+                <label for="nome">Nome completo:</label>
+                <input type="text" class="form-control" id="nome"/>
+                <br />
+                <label for="sexo">Selecione o Sexo:</label>
+                <select class="form-control">
+                    <option>Masculino</option>
+                    <option>Feminino</option>
+                </select>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/jquery-1.9.1.js"></script>
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+</body>
+</html>
